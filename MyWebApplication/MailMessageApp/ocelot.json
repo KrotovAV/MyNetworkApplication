@@ -1,0 +1,92 @@
+{
+  "Routes": [
+    {
+      //Usersservise
+      "DownstreamPathTemplate": "/User/{method}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7175
+        }
+      ],
+      "UpstreamPathTemplate": "/User/{method}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Delete" ],
+      "SwaggerKey": "users"
+    },
+    //Messageservice
+    {
+      "DownstreamPathTemplate": "/Message/{method}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7126
+        }
+      ],
+      "UpstreamPathTemplate": "/Message/{method}",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "SwaggerKey": "message"
+    }
+    //,
+    //Может быть третий сервис
+    //{
+    //  "DownstreamPathTemplate": "/ClientBooks/{method}",
+    //  "DownstreamScheme": "https",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 7051
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/ClientBooks/{method}",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ],
+    //  "SwaggerKey": "clientBooks"
+    //}
+  ],
+
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7185"
+  },
+
+  "SwaggerEndPoints": [
+    {
+      "Key": "users",
+      "TransformByOcelotConfig": false,
+      "Config": [
+        {
+          "Name": "Users API",
+          "Version": "v1",
+          "Url": "https://localhost:7175/swagger/v1/swagger.json"
+        }
+      ]
+    }
+    ,
+    {
+      "Key": "message",
+      "TransformByOcelotConfig": false,
+      "Config": [
+        {
+          "Name": "Message Api",
+          "Version": "v1",
+          "Url": "https://localhost:7126/swagger/v1/swagger.json"
+        }
+      ]
+    }
+    
+    //,
+
+    //{
+    //  "Key": "clientBooks",
+    //  "TransformByOcelotConfig": false,
+    //  "Config": [
+    //    {
+    //      "Name": "ClientBooks API",
+    //      "Version": "v1",
+    //      "Url": "https://localhost:7051/swagger/v1/swagger.json"
+    //    }
+    //  ]
+    //}
+  ]
+
+}

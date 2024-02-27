@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gcl8uLc49whMOrsexK+Bl32rkbOwCW2B1XxBf4T3+Uo=",
+  "Source": "MailMessageApp",
+  "BasePath": "_content/MailMessageApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
