@@ -53,8 +53,8 @@ namespace ConsoleApp04HW_02
         static void Main(string[] args)
         {
 
-            string ip = "127.0.0.1";
-            string from = "Kolia";
+            string ip = "127.0.0.5";
+            string from = "ABC";
             Console.WriteLine();
             Console.WriteLine(from);
             Console.WriteLine("--------------");

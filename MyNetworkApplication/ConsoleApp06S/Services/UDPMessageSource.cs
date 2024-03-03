@@ -12,19 +12,20 @@ namespace ConsoleApp06S.Services
     public class UdpMessageSource : IMessageSource
     {
         private readonly UdpClient _udpClient;
-        public UdpMessageSource() 
+        public UdpMessageSource(int portL)
         {
-            _udpClient = new UdpClient(12345);
+            _udpClient = new UdpClient(portL);
         }
 
-        public NetMessage Receive(ref IPEndPoint ep)
+        public NetMessage ReceiveNetMes(ref IPEndPoint ep)
         {
+            Console.WriteLine("Receive в Сервере сработал ");
             byte[] data = _udpClient.Receive(ref ep);
             string str = Encoding.UTF8.GetString(data);
             return NetMessage.DeserializeMessageFromJSON(str)?? new NetMessage();
         }
 
-        public async Task SendAsync(NetMessage message, IPEndPoint ep)
+        public async Task SendAsyncNetMes(NetMessage message, IPEndPoint ep)
         {
             byte[] buffer = Encoding.UTF8.GetBytes(message.SerializeMessageToJSON());
             await _udpClient.SendAsync(buffer, buffer.Length, ep);

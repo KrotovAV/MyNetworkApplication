@@ -1,0 +1,14 @@
+D:\Работа\Portfolio\MyNetworkApplication\Client\bin\Debug\net7.0\Client.exe
+D:\Работа\Portfolio\MyNetworkApplication\Client\bin\Debug\net7.0\Client.deps.json
+D:\Работа\Portfolio\MyNetworkApplication\Client\bin\Debug\net7.0\Client.runtimeconfig.json
+D:\Работа\Portfolio\MyNetworkApplication\Client\bin\Debug\net7.0\Client.dll
+D:\Работа\Portfolio\MyNetworkApplication\Client\bin\Debug\net7.0\Client.pdb
+D:\Работа\Portfolio\MyNetworkApplication\Client\obj\Debug\net7.0\Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\Работа\Portfolio\MyNetworkApplication\Client\obj\Debug\net7.0\Client.AssemblyInfoInputs.cache
+D:\Работа\Portfolio\MyNetworkApplication\Client\obj\Debug\net7.0\Client.AssemblyInfo.cs
+D:\Работа\Portfolio\MyNetworkApplication\Client\obj\Debug\net7.0\Client.csproj.CoreCompileInputs.cache
+D:\Работа\Portfolio\MyNetworkApplication\Client\obj\Debug\net7.0\Client.dll
+D:\Работа\Portfolio\MyNetworkApplication\Client\obj\Debug\net7.0\refint\Client.dll
+D:\Работа\Portfolio\MyNetworkApplication\Client\obj\Debug\net7.0\Client.pdb
+D:\Работа\Portfolio\MyNetworkApplication\Client\obj\Debug\net7.0\Client.genruntimeconfig.cache
+D:\Работа\Portfolio\MyNetworkApplication\Client\obj\Debug\net7.0\ref\Client.dll

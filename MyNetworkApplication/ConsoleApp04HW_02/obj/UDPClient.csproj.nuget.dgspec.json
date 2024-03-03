@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GeekBrains\\My Git\\NetworkApplicationCSharp\\04_Lesson_HW\\ConsoleApp04HW_02\\UDPClient.csproj": {}
+    "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp04HW_02\\UDPClient.csproj": {}
   },
   "projects": {
-    "D:\\GeekBrains\\My Git\\NetworkApplicationCSharp\\04_Lesson_HW\\ConsoleApp04HW\\UDPServer.csproj": {
+    "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp04HW\\UDPServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GeekBrains\\My Git\\NetworkApplicationCSharp\\04_Lesson_HW\\ConsoleApp04HW\\UDPServer.csproj",
+        "projectUniqueName": "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp04HW\\UDPServer.csproj",
         "projectName": "UDPServer",
-        "projectPath": "D:\\GeekBrains\\My Git\\NetworkApplicationCSharp\\04_Lesson_HW\\ConsoleApp04HW\\UDPServer.csproj",
+        "projectPath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp04HW\\UDPServer.csproj",
         "packagesPath": "C:\\Users\\10\\.nuget\\packages\\",
-        "outputPath": "D:\\GeekBrains\\My Git\\NetworkApplicationCSharp\\04_Lesson_HW\\ConsoleApp04HW\\obj\\",
+        "outputPath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp04HW\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "D:\\GeekBrains\\My Git\\NetworkApplicationCSharp\\04_Lesson_HW\\ConsoleApp04HW_02\\UDPClient.csproj": {
+    "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp04HW_02\\UDPClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GeekBrains\\My Git\\NetworkApplicationCSharp\\04_Lesson_HW\\ConsoleApp04HW_02\\UDPClient.csproj",
+        "projectUniqueName": "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp04HW_02\\UDPClient.csproj",
         "projectName": "UDPClient",
-        "projectPath": "D:\\GeekBrains\\My Git\\NetworkApplicationCSharp\\04_Lesson_HW\\ConsoleApp04HW_02\\UDPClient.csproj",
+        "projectPath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp04HW_02\\UDPClient.csproj",
         "packagesPath": "C:\\Users\\10\\.nuget\\packages\\",
-        "outputPath": "D:\\GeekBrains\\My Git\\NetworkApplicationCSharp\\04_Lesson_HW\\ConsoleApp04HW_02\\obj\\",
+        "outputPath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp04HW_02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\GeekBrains\\My Git\\NetworkApplicationCSharp\\04_Lesson_HW\\ConsoleApp04HW\\UDPServer.csproj": {
-                "projectPath": "D:\\GeekBrains\\My Git\\NetworkApplicationCSharp\\04_Lesson_HW\\ConsoleApp04HW\\UDPServer.csproj"
+              "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp04HW\\UDPServer.csproj": {
+                "projectPath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp04HW\\UDPServer.csproj"
               }
             }
           }

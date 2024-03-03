@@ -9,7 +9,7 @@ namespace ConsoleApp06S.Abstracts
 {
     public interface IMessageSource
     {
-        Task SendAsync(NetMessage message, IPEndPoint ep);
-        NetMessage Receive(ref IPEndPoint ep);
+        Task SendAsyncNetMes(NetMessage message, IPEndPoint ep);
+        NetMessage ReceiveNetMes(ref IPEndPoint ep);
     }
 }

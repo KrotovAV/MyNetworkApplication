@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "ConsoleApp06C/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ConsoleApp06C.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConsoleApp06C.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp06C/1.0.0": {
+      "type": "project",
+      "path": "../ConsoleApp06C/ConsoleApp06C.csproj",
+      "msbuildProject": "../ConsoleApp06C/ConsoleApp06C.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "ConsoleApp06C >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\10\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Работа\\Portfolio\\MyNetworkApplication\\UDPClient\\UDPClient.csproj",
+      "projectName": "UDPClient",
+      "projectPath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\UDPClient\\UDPClient.csproj",
+      "packagesPath": "C:\\Users\\10\\.nuget\\packages\\",
+      "outputPath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\UDPClient\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp06C\\ConsoleApp06C.csproj": {
+              "projectPath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp06C\\ConsoleApp06C.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

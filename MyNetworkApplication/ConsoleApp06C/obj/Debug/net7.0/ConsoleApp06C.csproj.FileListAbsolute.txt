@@ -1,0 +1,14 @@
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp06C\obj\Debug\net7.0\ConsoleApp06C.GeneratedMSBuildEditorConfig.editorconfig
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp06C\obj\Debug\net7.0\ConsoleApp06C.AssemblyInfoInputs.cache
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp06C\obj\Debug\net7.0\ConsoleApp06C.AssemblyInfo.cs
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp06C\obj\Debug\net7.0\ConsoleApp06C.csproj.CoreCompileInputs.cache
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp06C\bin\Debug\net7.0\ConsoleApp06C.exe
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp06C\bin\Debug\net7.0\ConsoleApp06C.deps.json
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp06C\bin\Debug\net7.0\ConsoleApp06C.runtimeconfig.json
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp06C\bin\Debug\net7.0\ConsoleApp06C.dll
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp06C\bin\Debug\net7.0\ConsoleApp06C.pdb
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp06C\obj\Debug\net7.0\ConsoleApp06C.dll
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp06C\obj\Debug\net7.0\refint\ConsoleApp06C.dll
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp06C\obj\Debug\net7.0\ConsoleApp06C.pdb
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp06C\obj\Debug\net7.0\ConsoleApp06C.genruntimeconfig.cache
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp06C\obj\Debug\net7.0\ref\ConsoleApp06C.dll

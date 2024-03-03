@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GeekBrains\\My Git\\NetworkApplicationCSharp\\05_Lesson\\ConsoleApp05S\\ConsoleApp05S.csproj": {}
+    "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp05S\\ConsoleApp05S.csproj": {}
   },
   "projects": {
-    "D:\\GeekBrains\\My Git\\NetworkApplicationCSharp\\05_Lesson\\ConsoleApp05S\\ConsoleApp05S.csproj": {
+    "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp05S\\ConsoleApp05S.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GeekBrains\\My Git\\NetworkApplicationCSharp\\05_Lesson\\ConsoleApp05S\\ConsoleApp05S.csproj",
+        "projectUniqueName": "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp05S\\ConsoleApp05S.csproj",
         "projectName": "ConsoleApp05S",
-        "projectPath": "D:\\GeekBrains\\My Git\\NetworkApplicationCSharp\\05_Lesson\\ConsoleApp05S\\ConsoleApp05S.csproj",
+        "projectPath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp05S\\ConsoleApp05S.csproj",
         "packagesPath": "C:\\Users\\10\\.nuget\\packages\\",
-        "outputPath": "D:\\GeekBrains\\My Git\\NetworkApplicationCSharp\\05_Lesson\\ConsoleApp05S\\obj\\",
+        "outputPath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp05S\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\10\\AppData\\Roaming\\NuGet\\NuGet.Config",

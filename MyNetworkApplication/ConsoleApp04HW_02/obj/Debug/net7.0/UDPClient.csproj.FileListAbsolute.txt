@@ -19,3 +19,24 @@ D:\GeekBrains\My Git\NetworkApplicationCSharp\04_Lesson_HW\ConsoleApp04HW_02\obj
 D:\GeekBrains\My Git\NetworkApplicationCSharp\04_Lesson_HW\ConsoleApp04HW_02\obj\Debug\net7.0\UDPClient.pdb
 D:\GeekBrains\My Git\NetworkApplicationCSharp\04_Lesson_HW\ConsoleApp04HW_02\obj\Debug\net7.0\UDPClient.genruntimeconfig.cache
 D:\GeekBrains\My Git\NetworkApplicationCSharp\04_Lesson_HW\ConsoleApp04HW_02\obj\Debug\net7.0\ref\UDPClient.dll
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp04HW_02\bin\Debug\net7.0\UDPServer.deps.json
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp04HW_02\bin\Debug\net7.0\UDPServer.runtimeconfig.json
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp04HW_02\bin\Debug\net7.0\UDPServer.exe
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp04HW_02\bin\Debug\net7.0\UDPClient.exe
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp04HW_02\bin\Debug\net7.0\UDPClient.deps.json
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp04HW_02\bin\Debug\net7.0\UDPClient.runtimeconfig.json
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp04HW_02\bin\Debug\net7.0\UDPClient.dll
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp04HW_02\bin\Debug\net7.0\UDPClient.pdb
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp04HW_02\bin\Debug\net7.0\UDPServer.dll
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp04HW_02\bin\Debug\net7.0\UDPServer.pdb
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp04HW_02\obj\Debug\net7.0\UDPClient.csproj.AssemblyReference.cache
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp04HW_02\obj\Debug\net7.0\UDPClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp04HW_02\obj\Debug\net7.0\UDPClient.AssemblyInfoInputs.cache
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp04HW_02\obj\Debug\net7.0\UDPClient.AssemblyInfo.cs
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp04HW_02\obj\Debug\net7.0\UDPClient.csproj.CoreCompileInputs.cache
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp04HW_02\obj\Debug\net7.0\UDPClient.csproj.CopyComplete
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp04HW_02\obj\Debug\net7.0\UDPClient.dll
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp04HW_02\obj\Debug\net7.0\refint\UDPClient.dll
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp04HW_02\obj\Debug\net7.0\UDPClient.pdb
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp04HW_02\obj\Debug\net7.0\UDPClient.genruntimeconfig.cache
+D:\Работа\Portfolio\MyNetworkApplication\ConsoleApp04HW_02\obj\Debug\net7.0\ref\UDPClient.dll

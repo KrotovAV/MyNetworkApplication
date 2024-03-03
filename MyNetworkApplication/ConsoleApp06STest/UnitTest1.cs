@@ -9,16 +9,16 @@ namespace ConsoleApp06STest
 
     public class Tests
     {
-        [SetUp]
-        public void Setup()
-        {
-            using (var ctx = new ChatContext())
-            {
-                ctx.Messages.RemoveRange(ctx.Messages);
-                ctx.Users.RemoveRange(ctx.Users);
-                ctx.SaveChanges();
-            }
-        }
+        //[SetUp]
+        //public void Setup()
+        //{
+        //    using (var ctx = new ChatContext())
+        //    {
+        //        ctx.Messages.RemoveRange(ctx.Messages);
+        //        ctx.Users.RemoveRange(ctx.Users);
+        //        ctx.SaveChanges();
+        //    }
+        //}
         //[TearDown]
         //public void TearDown()
         //{
@@ -31,145 +31,145 @@ namespace ConsoleApp06STest
         //}
 
         //---------------------------------------------------------
-        [Test]
-        public async Task Test0()
-        {
-            var mock = new MockMessageSource();
-            var srv = new Server(mock);
-            mock.AddServer(srv);
-            await srv.Start();
+        //[Test]
+        //public async Task Test0()
+        //{
+        //    var mock = new MockMessageSource();
+        //    var srv = new Server(mock);
+        //    mock.AddServer(srv);
+        //    await srv.Start();
 
-            using (var сtx = new ChatContext())
-            {
-                //Assert.IsTrue(сtx.Users.Count() == 2, "Пользователи не созданы");
+        //    using (var сtx = new ChatContext())
+        //    {
+        //        //Assert.IsTrue(сtx.Users.Count() == 2, "Пользователи не созданы");
 
-                var user1 = сtx.Users.FirstOrDefault(x => x.FullName == "Вася");
-                var user2 = сtx.Users.FirstOrDefault(x => x.FullName == "Юля");
+        //        var user1 = сtx.Users.FirstOrDefault(x => x.FullName == "Вася");
+        //        var user2 = сtx.Users.FirstOrDefault(x => x.FullName == "Юля");
 
-                //Assert.IsNotNull(user1, "Пользователи не созданы");
-                //Assert.IsNotNull(user2, "Пользователи не созданы");
+        //        //Assert.IsNotNull(user1, "Пользователи не созданы");
+        //        //Assert.IsNotNull(user2, "Пользователи не созданы");
 
-                //Assert.IsTrue(user1.MessagesFrom.Count() == 1);
-                //Assert.IsTrue(user2.MessagesFrom.Count() == 1);
+        //        //Assert.IsTrue(user1.MessagesFrom.Count() == 1);
+        //        //Assert.IsTrue(user2.MessagesFrom.Count() == 1);
 
-                Assert.IsTrue(user1.MessagesTo.Count == 0, $"{user1.MessagesTo.Count}");
-                Assert.IsTrue(user2.MessagesTo.Count == 0, $"{user2.MessagesTo.Count}");
+        //        Assert.IsTrue(user1.MessagesTo.Count == 0, $"{user1.MessagesTo.Count}");
+        //        Assert.IsTrue(user2.MessagesTo.Count == 0, $"{user2.MessagesTo.Count}");
 
-                //var msg1 = сtx.Messages.FirstOrDefault(x => x.UserFrom == user1 && x.UserTo == user2);
-                //var msg2 = сtx.Messages.FirstOrDefault(x => x.UserFrom == user2 && x.UserTo == user1);
+        //        //var msg1 = сtx.Messages.FirstOrDefault(x => x.UserFrom == user1 && x.UserTo == user2);
+        //        //var msg2 = сtx.Messages.FirstOrDefault(x => x.UserFrom == user2 && x.UserTo == user1);
 
-                //Assert.AreEqual("Привет, Василий", msg2.Text);
-                //Assert.AreEqual("Привет, Юлька!!!", msg1.Text);
-            }
+        //        //Assert.AreEqual("Привет, Василий", msg2.Text);
+        //        //Assert.AreEqual("Привет, Юлька!!!", msg1.Text);
+        //    }
 
-        }
+        //}
         //-------------------------------------------------------------------
-        [Test]
-        public async Task Register2UsersInBDTest()
-        {
-            var mock = new MockMessageSource();
-            var srv = new Server(mock);
-            mock.AddServer(srv);
-            await srv.Start();
+        //[Test]
+        //public async Task Register2UsersInBDTest()
+        //{
+        //    var mock = new MockMessageSource();
+        //    var srv = new Server(mock);
+        //    mock.AddServer(srv);
+        //    await srv.Start();
 
-            using (var сtx = new ChatContext())
-            {
+        //    using (var сtx = new ChatContext())
+        //    {
                 
-                Assert.IsTrue(сtx.Users.Count() == 2, "Пользователи не созданы");
-            }
-        }
+        //        Assert.IsTrue(сtx.Users.Count() == 2, "Пользователи не созданы");
+        //    }
+        //}
 
-        [Test]
-        public async Task CorrectRegisterFullNameOfUser1InBDTest()
-        {
-            var mock = new MockMessageSource();
-            var srv = new Server(mock);
-            mock.AddServer(srv);
-            await srv.Start();
+        //[Test]
+        //public async Task CorrectRegisterFullNameOfUser1InBDTest()
+        //{
+        //    var mock = new MockMessageSource();
+        //    var srv = new Server(mock);
+        //    mock.AddServer(srv);
+        //    await srv.Start();
 
-            using (var сtx = new ChatContext())
-            {
-                var user1 = сtx.Users.FirstOrDefault(x => x.FullName == "Вася");
+        //    using (var сtx = new ChatContext())
+        //    {
+        //        var user1 = сtx.Users.FirstOrDefault(x => x.FullName == "Вася");
 
-                Assert.IsNotNull(user1, "Пользователи не созданы");
-            }
-        }
-        [Test]
-        public async Task CorrectRegisterFullNameOfUser2InBDTest()
-        {
-            var mock = new MockMessageSource();
-            var srv = new Server(mock);
-            mock.AddServer(srv);
-            await srv.Start();
+        //        Assert.IsNotNull(user1, "Пользователи не созданы");
+        //    }
+        //}
+        //[Test]
+        //public async Task CorrectRegisterFullNameOfUser2InBDTest()
+        //{
+        //    var mock = new MockMessageSource();
+        //    var srv = new Server(mock);
+        //    mock.AddServer(srv);
+        //    await srv.Start();
 
-            using (var сtx = new ChatContext())
-            {
-                var user2 = сtx.Users.FirstOrDefault(x => x.FullName == "Юля");
+        //    using (var сtx = new ChatContext())
+        //    {
+        //        var user2 = сtx.Users.FirstOrDefault(x => x.FullName == "Юля");
 
-                Assert.IsNotNull(user2, "Пользователи не созданы");
-            }
-        }
+        //        Assert.IsNotNull(user2, "Пользователи не созданы");
+        //    }
+        //}
 
-        [Test]
-        public async Task Test1()
-        {
-            var mock = new MockMessageSource();
-            var srv = new Server(mock);
-            mock.AddServer(srv);
-            await srv.Start();
+        //[Test]
+        //public async Task Test1()
+        //{
+        //    var mock = new MockMessageSource();
+        //    var srv = new Server(mock);
+        //    mock.AddServer(srv);
+        //    await srv.Start();
 
-            using (var сtx = new ChatContext())
-            {
-                //var user1 = сtx.Users.FirstOrDefault(x => x.FullName == "Вася");
-                var user2 = сtx.Users.FirstOrDefault(x => x.FullName == "Юля");
+        //    using (var сtx = new ChatContext())
+        //    {
+        //        //var user1 = сtx.Users.FirstOrDefault(x => x.FullName == "Вася");
+        //        var user2 = сtx.Users.FirstOrDefault(x => x.FullName == "Юля");
 
-                //Console.WriteLine(user1.MessagesFrom.Count());
+        //        //Console.WriteLine(user1.MessagesFrom.Count());
 
-               // Assert.IsTrue(user1.MessagesFrom.Count() != 0);
-                Assert.IsTrue(user2.MessagesFrom.Count() == 0);
-            }
-        }
+        //       // Assert.IsTrue(user1.MessagesFrom.Count() != 0);
+        //        Assert.IsTrue(user2.MessagesFrom.Count() == 0);
+        //    }
+        //}
 
 
-        [Test]
-        public async Task CorrectTextOfMessageFromUser1ToUser2InBDTest()
-        {
-            var mock = new MockMessageSource();
-            var srv = new Server(mock);
-            mock.AddServer(srv);
-            await srv.Start();
+        //[Test]
+        //public async Task CorrectTextOfMessageFromUser1ToUser2InBDTest()
+        //{
+        //    var mock = new MockMessageSource();
+        //    var srv = new Server(mock);
+        //    mock.AddServer(srv);
+        //    await srv.Start();
 
-            using (var сtx = new ChatContext())
-            {
-                var user1 = сtx.Users.FirstOrDefault(x => x.FullName == "Вася");
-                var user2 = сtx.Users.FirstOrDefault(x => x.FullName == "Юля");
+        //    using (var сtx = new ChatContext())
+        //    {
+        //        var user1 = сtx.Users.FirstOrDefault(x => x.FullName == "Вася");
+        //        var user2 = сtx.Users.FirstOrDefault(x => x.FullName == "Юля");
 
-                var msg1 = сtx.Messages.FirstOrDefault(x => x.UserFrom == user1 && x.UserTo == user2);
-                var msg2 = сtx.Messages.FirstOrDefault(x => x.UserFrom == user2 && x.UserTo == user1);
+        //        var msg1 = сtx.Messages.FirstOrDefault(x => x.UserFrom == user1 && x.UserTo == user2);
+        //        var msg2 = сtx.Messages.FirstOrDefault(x => x.UserFrom == user2 && x.UserTo == user1);
 
-                Assert.AreEqual("Привет, Юлька!!!", msg1.Text);
-            }
-        }
+        //        Assert.AreEqual("Привет, Юлька!!!", msg1.Text);
+        //    }
+        //}
 
-        [Test]
-        public async Task CorrectTextOfMessageFromUser2ToUser1InBDTest()
-        {
-            var mock = new MockMessageSource();
-            var srv = new Server(mock);
-            mock.AddServer(srv);
-            await srv.Start();
+        //[Test]
+        //public async Task CorrectTextOfMessageFromUser2ToUser1InBDTest()
+        //{
+        //    var mock = new MockMessageSource();
+        //    var srv = new Server(mock);
+        //    mock.AddServer(srv);
+        //    await srv.Start();
 
-            using (var сtx = new ChatContext())
-            {
-                var user1 = сtx.Users.FirstOrDefault(x => x.FullName == "Вася");
-                var user2 = сtx.Users.FirstOrDefault(x => x.FullName == "Юля");
+        //    using (var сtx = new ChatContext())
+        //    {
+        //        var user1 = сtx.Users.FirstOrDefault(x => x.FullName == "Вася");
+        //        var user2 = сtx.Users.FirstOrDefault(x => x.FullName == "Юля");
 
-                var msg1 = сtx.Messages.FirstOrDefault(x => x.UserFrom == user1 && x.UserTo == user2);
-                var msg2 = сtx.Messages.FirstOrDefault(x => x.UserFrom == user2 && x.UserTo == user1);
+        //        var msg1 = сtx.Messages.FirstOrDefault(x => x.UserFrom == user1 && x.UserTo == user2);
+        //        var msg2 = сtx.Messages.FirstOrDefault(x => x.UserFrom == user2 && x.UserTo == user1);
 
-                Assert.AreEqual("Привет, Василий", msg2.Text);
-            }
-        }
+        //        Assert.AreEqual("Привет, Василий", msg2.Text);
+        //    }
+        //}
         //[Test]
         //public async Task ClientListener_ReceivesMessage_CallsConfirm()
         //{

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L0QBzucZILujVvj4+JNH48r5YMM4FkIHYbwZ260yJ2SLFmIfHiwBktnKgnTZH3e0RuVwoUIy5TnDdL0htOsFWA==",
+  "dgSpecHash": "D7A+Z06aheDE+tZY33N/BPAJs2BidvcZ9fb4J0ciUblKri/OMDfFnMvyk9Kj7azcpW0g3+X7NfINxdnOgLT6oQ==",
   "success": true,
-  "projectFilePath": "D:\\GeekBrains\\My Git\\NetworkApplicationCSharp\\06_Lesson\\ConsoleApp06STest\\ConsoleApp06STest.csproj",
+  "projectFilePath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp06STest\\ConsoleApp06STest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\10\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\10\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",

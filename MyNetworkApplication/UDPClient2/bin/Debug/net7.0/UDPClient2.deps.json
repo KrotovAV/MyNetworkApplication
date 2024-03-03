@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "UDPClient2/1.0.0": {
+        "dependencies": {
+          "ConsoleApp06C": "1.0.0"
+        },
+        "runtime": {
+          "UDPClient2.dll": {}
+        }
+      },
+      "ConsoleApp06C/1.0.0": {
+        "runtime": {
+          "ConsoleApp06C.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UDPClient2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ConsoleApp06C/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

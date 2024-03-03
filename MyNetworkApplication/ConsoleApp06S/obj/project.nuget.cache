@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+1OflMFuSpeocYpex79nDET0EPjvtjfR6tTxYGSpJPABFabkfqBLQHOxuG0TSImLJ8Jn76eKtG2/9/QFeAenkA==",
+  "dgSpecHash": "B8B7v19wgigmbouTqjdwkv8m6p9bBbBWf+JpP37vPqp8ud/YSgQXvuiPK3SupZ4vqRKPMR3EEvPNj3XlkS3SpQ==",
   "success": true,
-  "projectFilePath": "D:\\GeekBrains\\My Git\\NetworkApplicationCSharp\\06_Lesson\\ConsoleApp06S\\ConsoleApp06S.csproj",
+  "projectFilePath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp06S\\ConsoleApp06S.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\10\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\10\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

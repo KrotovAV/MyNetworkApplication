@@ -25,14 +25,28 @@ namespace ConsoleApp06S
 
         public static NetMessage? DeserializeMessageFromJSON(string message) => JsonSerializer.Deserialize<NetMessage>(message);
 
+        //public void PrintGetMessageFrom()
+        //{
+        //    Console.WriteLine(ToString());
+        //}
+
         public void PrintGetMessageFrom()
         {
-            Console.WriteLine(ToString());
+            if (OperatingSystem.IsWindows())
+            {
+                var position = Console.GetCursorPosition();
+                int left = position.Left;
+                int top = position.Top;
+                Console.MoveBufferArea(0, top, left, 1, 0, top + 1);
+                Console.SetCursorPosition(0, top);
+                Console.WriteLine($"{DateTime} от {NickNameFrom}\nПолучено сообщение * {Text} * \n");
+                Console.SetCursorPosition(left, top + 2);
+            }
+            else Console.WriteLine(ToString());
         }
-
         public override string ToString()
         {
-            return $"{DateTime} от {NickNameFrom}\nПолучено сообщение * {Text} * ";
+            return $"{DateTime} от {NickNameFrom}\nПолучено сообщение * {Text} * \n";
         }
         
     }
