@@ -25,8 +25,8 @@ namespace UDPClient
         //}
 
         static void Main(string[] args)
-        //static async Task Main(string[] args)
         {
+            //Thread.Sleep(5000);
             Console.WriteLine("First Client start!");
 
             string ip = "127.0.0.1";
@@ -37,13 +37,10 @@ namespace UDPClient
             Console.WriteLine(name);
             Console.WriteLine("--------------");
 
-
             Client clientFirst = new Client(name, ip, 12345, portL);
             
-            //await clientFirst.Start();
             clientFirst.Start();
 
-            //Console.ReadKey();
         }
     }
 }

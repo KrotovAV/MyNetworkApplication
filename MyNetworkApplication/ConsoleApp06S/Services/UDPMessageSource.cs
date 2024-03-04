@@ -19,12 +19,10 @@ namespace ConsoleApp06S.Services
 
         public NetMessage ReceiveNetMes(ref IPEndPoint ep)
         {
-            Console.WriteLine("Receive в Сервере сработал ");
             byte[] data = _udpClient.Receive(ref ep);
             string str = Encoding.UTF8.GetString(data);
             return NetMessage.DeserializeMessageFromJSON(str)?? new NetMessage();
         }
-
         public async Task SendAsyncNetMes(NetMessage message, IPEndPoint ep)
         {
             byte[] buffer = Encoding.UTF8.GetBytes(message.SerializeMessageToJSON());

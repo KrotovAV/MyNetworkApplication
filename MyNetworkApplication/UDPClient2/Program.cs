@@ -7,6 +7,7 @@ namespace UDPClient2
     {
         static void Main(string[] args)
         {
+            //Thread.Sleep(5500);
             Console.WriteLine("Second Client start!");
 
             string ip = "127.0.0.2";
@@ -16,11 +17,9 @@ namespace UDPClient2
             Console.WriteLine(name);
             Console.WriteLine("--------------");
 
-
             Client clientFirst = new Client(name, ip, 12345, portL);
+
             clientFirst.Start();
-            //await clientFirst.Start();
-            //Console.ReadKey();
         }
     }
 }

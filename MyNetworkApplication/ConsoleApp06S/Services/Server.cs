@@ -35,12 +35,8 @@ namespace ConsoleApp06S.Services
         }
         private async Task Register(NetMessage message)
         {
-            Console.WriteLine("Register в Сервере сработал ");
-
             if (clients.TryAdd(message.NickNameFrom, message.EndPoint))
             {
-                Console.WriteLine($"Пользователь {message.NickNameFrom} зарегистрирован");
-                Console.WriteLine("----------------");
                 using (ChatContext ctx = new ChatContext())
                 {
                     User? user = ctx.Users.FirstOrDefault(x => x.FullName == message.NickNameFrom);
@@ -49,62 +45,114 @@ namespace ConsoleApp06S.Services
                         ctx.Add(new User {FullName = message.NickNameFrom});
                         await ctx.SaveChangesAsync();
                     }
+                    Console.WriteLine($"Пользователь {user.Id} зарегистрирован");
+                    Console.WriteLine("----------------");
                 }
+                
                 var messageRegConfirm = new NetMessage()
                 {
                     NickNameFrom = "Server",
                     NickNameTo = message.NickNameFrom,
+                    DateTime = DateTime.Now,
                     Text = "Зарегистрирован на сервере"
                 };
 
                 await _messageSourse.SendAsyncNetMes(messageRegConfirm, message.EndPoint);
 
-                Console.WriteLine("Register сработал у Cliaent");
+                using (ChatContext ctx = new ChatContext())
+                {
+                    User? toUser = ctx.Users.FirstOrDefault(x => x.FullName == message.NickNameFrom);
+                    var undelMessages = ctx.Messages.Where(x => x.UserToId == toUser.Id && x.IsSent == false).ToList();
+                    if (undelMessages != null)
+                    {
+                        NetMessage undeliveredMessage = new NetMessage() { };
+                        foreach (var mes in undelMessages)
+                        {
+                            User fromUser = ctx.Users.FirstOrDefault(x => x.Id == mes.UserFromId);
+
+                            undeliveredMessage.Id = mes.MessageId;
+                            undeliveredMessage.NickNameFrom = fromUser.FullName;
+                            undeliveredMessage.DateTime = mes.DateSend;
+                            undeliveredMessage.NickNameTo = toUser.FullName;
+                            undeliveredMessage.Text = mes.Text;
+
+                            await _messageSourse.SendAsyncNetMes(undeliveredMessage, message.EndPoint);
+                            Console.WriteLine($"Сообщение id:{undeliveredMessage.Id} отправлено пользователю {toUser.Id}.");
+                            Console.WriteLine("----------------");
+                        }
+                    }
+                }
             }
         }
         private async Task RelyMessage(NetMessage message)
         {
-            if (clients.TryGetValue(message.NickNameTo, out IPEndPoint ep))
+            using (ChatContext ctx = new ChatContext())
             {
-                Console.WriteLine($"RelyMessage Пользователь Найден");
-                int? id = 0;
-                using (ChatContext ctx = new ChatContext())
+                User toUser = ctx.Users.FirstOrDefault(x => x.FullName == message.NickNameTo);
+                User fromUser = ctx.Users.FirstOrDefault(x => x.FullName == message.NickNameFrom);
+                NetMessage messageRelied = new NetMessage(){};
+                IPEndPoint messageBackOrRelayEP;
+                //Проверяем наличие получателя б.д. users
+                if (toUser != null)
                 {
-                    User fromUser = ctx.Users.First(x => x.FullName == message.NickNameFrom);
-                    User toUser = ctx.Users.First(x => x.FullName == message.NickNameTo);
-
-                    Message msg = new Message() { 
-                        UserFrom = fromUser, 
-                        UserTo = toUser, 
-                        IsSent = false, 
-                        Text = message.Text 
+                    Console.WriteLine($"Пользователь {toUser.Id} найден.");
+                    Console.WriteLine("----------------");
+                    //Сохраняем сообщение в б.д. Messages
+                    Message msg = new Message()
+                    {
+                        UserFrom = fromUser,
+                        UserTo = toUser,
+                        IsSent = false,
+                        DateSend = DateTime.Now,
+                        Text = message.Text
                     };
                     ctx.Messages.Add(msg);
                     ctx.SaveChanges();
-                    id = msg.MessageId;
-                }
-                message.Id = id;
+                    message.Id = msg.MessageId;
+                    //Проверяем наличие получателя в сети, т.е. есть ли он сейчас в словаре
+                    if (clients.TryGetValue(message.NickNameTo, out IPEndPoint ep))
+                    {
+                        //отправляем сообщение получателю
+                        messageRelied.Id = msg.MessageId;
+                        messageRelied.NickNameFrom = message.NickNameFrom;
+                        messageRelied.NickNameTo = message.NickNameTo;
+                        messageRelied.Text = message.Text;
 
-                NetMessage messageTestRelied = new NetMessage()
+                        Console.WriteLine($"Сообщение id: {msg.MessageId} от {msg.UserFromId} для {msg.UserToId} отправлено.");
+                        Console.WriteLine("----------------");
+                        messageBackOrRelayEP = ep;
+                    }
+                    else
+                    {
+                        //Сообщаем отправителю, что сообщение пока не доставлено
+                        messageRelied.Id = msg.MessageId;
+                        messageRelied.NickNameFrom = "Server";
+                        messageRelied.NickNameTo = message.NickNameFrom;
+                        messageRelied.Text = $"{message.NickNameTo} находится не в сети\n" +
+                            $"Сообщение id = {msg.MessageId} будет отправлено пользователю, когда он появится в сети";
+                        messageBackOrRelayEP = clients[message.NickNameFrom];
+                        
+                        Console.WriteLine($"Сообщение {msg.MessageId} будет отправлено пользователю, когда он появится в сети");
+                        Console.WriteLine("----------------");
+                    }
+                }
+                else
                 {
-                    Id = message.Id,
-                    NickNameFrom = message.NickNameFrom,
-                    NickNameTo = message.NickNameTo,
-                    Text = message.Text
-                };
-              
-                await _messageSourse.SendAsyncNetMes(messageTestRelied, ep);
-                //await _messageSourse.SendAsyncNetMes(message, ep);
-                Console.WriteLine($"Message Relied, from =  {message.NickNameFrom} to  {message.NickNameTo} ");
-            }
-            else
-            {
-                Console.WriteLine($"Пользватель не найден или сейчас не в сети");
+                    Console.WriteLine($"Получатель не найден.");
+                    Console.WriteLine("----------------");
+                    //Сообщаем отправителю, что такой пользователь не найден
+
+                    messageRelied.NickNameFrom = "Server";
+                    messageRelied.NickNameTo = message.NickNameFrom;
+                    messageRelied.Text = $"Пользователь {message.NickNameTo} не найден.";
+                    messageBackOrRelayEP = clients[message.NickNameFrom];
+                }
+                messageRelied.DateTime = DateTime.Now;
+                await _messageSourse.SendAsyncNetMes(messageRelied, messageBackOrRelayEP);
             }
         }
         async Task ConfirmMessageReceived(int? id)
         {
-            Console.WriteLine($"Message confirmation id =  + {id}");
             using (ChatContext ctx = new ChatContext())
             {
                 var msg = ctx.Messages.FirstOrDefault(m => m.MessageId == id);
@@ -113,11 +161,12 @@ namespace ConsoleApp06S.Services
                     msg.IsSent = true;
                     await ctx.SaveChangesAsync();
                 }
+                Console.WriteLine($"Сообщение id:{msg.MessageId} доставлено получателю {msg.UserToId}.");
+                Console.WriteLine("----------------");
             }
         }
         public async Task ProcessMessage(NetMessage message)
         {
-            Console.WriteLine("ProcessMessage в Сервере сработал ");
             switch (message.Command)
             {
                 case Command.Register: await Register(message); break;
@@ -129,42 +178,25 @@ namespace ConsoleApp06S.Services
         public async Task Start()
         {
             Console.WriteLine("Сервер ожидает сообщения ");
+            Console.WriteLine("----------------");
             while (work)
             {
                 try
                 {
-                    //-------------------
-                    //using (ChatContext ctx = new ChatContext())
-                    //{
-                    //    Console.WriteLine("Users------------------------");
-                    //    foreach (var row in ctx.Users)
-                    //        Console.WriteLine(row.Id + " : " + row.FullName);
-                    //    Console.WriteLine("Messages------------------------");
-                    //    foreach (var row in ctx.Messages)
-                    //        Console.WriteLine(row.UserFromId + " : " + row.UserToId + " : " + row.Text);
-                    //    Console.WriteLine("--------------------------------");
-
-                    //}
-                    //------------------
                     NetMessage? message = _messageSourse.ReceiveNetMes(ref ep);
                     message.EndPoint = ep;
-
                     await ProcessMessage(message);
-                    //------------------
-                    foreach (var c in clients)
-                    {
-                        Console.WriteLine(c.Key + ": " + c.Value);
-                    }
-                    Console.WriteLine("------------------------");
-                    //------------------------------------
+                }
+                catch (SocketException)
+                {
+                    Console.WriteLine($"Получатель сообщения не в сети.");
+                    Console.WriteLine("----------------");
                 }
                 catch(Exception ex)
                 {
                     Console.WriteLine(ex);
                 }
             }
-        }
-       
-        
+        }        
     }
 }

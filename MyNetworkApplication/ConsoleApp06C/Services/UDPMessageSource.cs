@@ -23,15 +23,10 @@ namespace ConsoleApp06C.Services
             string str = Encoding.UTF8.GetString(data);
             return NetMessage.DeserializeMessageFromJSON(str)?? new NetMessage();
         }
-
         public async Task SendAsyncNetMes(NetMessage message, IPEndPoint ep)
         {
-            
             byte[] buffer = Encoding.UTF8.GetBytes(message.SerializeMessageToJSON());
             await _udpClient.SendAsync(buffer, buffer.Length, ep);
-  
-            //Console.WriteLine("Data: {0}", string.Join(", ", buffer));
-            //Console.WriteLine(" SendAsync сработал у Cliaent");
         }
     }
 }

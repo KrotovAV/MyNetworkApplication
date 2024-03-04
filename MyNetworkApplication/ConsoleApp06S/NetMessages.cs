@@ -12,7 +12,7 @@ namespace ConsoleApp06S
     public class NetMessage
     {
         
-        public int? Id;
+        public int? Id { get; set; }
         public string Text { get; set; }
         public DateTime DateTime { get; set; }
         public string? NickNameFrom { get; set; }
@@ -24,11 +24,6 @@ namespace ConsoleApp06S
         public string SerializeMessageToJSON() => JsonSerializer.Serialize(this);
 
         public static NetMessage? DeserializeMessageFromJSON(string message) => JsonSerializer.Deserialize<NetMessage>(message);
-
-        //public void PrintGetMessageFrom()
-        //{
-        //    Console.WriteLine(ToString());
-        //}
 
         public void PrintGetMessageFrom()
         {
