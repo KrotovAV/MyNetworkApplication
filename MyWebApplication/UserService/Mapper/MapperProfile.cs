@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using UserService.BD;
+using DataBaseUsers.BD;
 using UserService.Dto;
 
 namespace UserService.Mapper

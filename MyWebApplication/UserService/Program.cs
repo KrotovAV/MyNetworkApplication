@@ -5,7 +5,6 @@ using Microsoft.OpenApi.Models;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 using UserService.AuthorizationModel;
-using UserService.BD;
 using UserService.Repository;
 using System.Security.Cryptography;
 using UserService.Mapper;

@@ -1,7 +1,8 @@
-﻿using System.Security.Cryptography;
+﻿using DataBaseUsers.BD;
+using System.Security.Cryptography;
 using System.Text;
-using UserService.BD;
-
+using UserService.AuthorizationModel;
+using DataBaseUsers;
 namespace UserService.AuthorizationModel
 {
     public class UserAuthenticationService : IUserAuthenticationService

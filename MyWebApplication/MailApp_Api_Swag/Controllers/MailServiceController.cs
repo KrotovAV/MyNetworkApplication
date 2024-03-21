@@ -53,14 +53,11 @@ namespace MainMailApiMultiSwagger.Controllers
             var token = HttpContext.Session.GetString("JWToken");
             using var httpClient = new HttpClient();
             var request = new HttpRequestMessage(new HttpMethod("POST"), $"https://localhost:7175/Restricted/CheckUser?name={userNameForCheck}");
-
             request.Headers.TryAddWithoutValidation("accept", "text/plain");
             request.Headers.TryAddWithoutValidation("Authorization", $"Bearer {token}");
             request.Content = new StringContent("");
             request.Content.Headers.ContentType = MediaTypeHeaderValue.Parse("application/x-www-form-urlencoded");
-
             var response2 = await httpClient.SendAsync(request);
-
             if (response2.StatusCode == System.Net.HttpStatusCode.OK) 
                 return true;
             return false;

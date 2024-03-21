@@ -1,9 +1,8 @@
-﻿using UserService;
-using UserService.BD;
+﻿using DataBaseUsers.BD;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace UserService
+namespace DataBaseUsers
 {
     public class UserContext : DbContext
     {

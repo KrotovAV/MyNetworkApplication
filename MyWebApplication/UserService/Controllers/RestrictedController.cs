@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using UserService.AuthorizationModel;
-using UserService.BD;
 using UserService.Repository;
 
 namespace UserService.Controllers
@@ -49,11 +48,28 @@ namespace UserService.Controllers
         [Authorize(Roles = "Adminstrator, User, Adminhelper")]
         public ActionResult<bool> CheckUser(string name)
         {
-
             var res = _userRepository.UserExists(name);
             if (res == false)
                 return StatusCode(500);
             return Ok();
+        }
+
+        [HttpPost]
+        [Route("GetUserRole")]
+        [Authorize(Roles = "Adminstrator, User, Adminhelper")]
+        public ActionResult GetUserRole(string name)
+        {
+            var res = _userRepository.GetUserRole(name);
+            return Ok(res);
+        }
+
+        [HttpPut]
+        [Route("ChangeUserRole")]
+        [Authorize(Roles = "Adminstrator")]
+        public IActionResult ChangeUserRole(string name)
+        {
+            var res = _userRepository.ChangeUserRole(name);
+            return Ok(res);
         }
 
         [HttpDelete]

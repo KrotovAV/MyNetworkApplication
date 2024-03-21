@@ -4,7 +4,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Text;
+using System.Xml.Linq;
 
 namespace MainMailApiMultiSwagger.Controllers
 {
@@ -14,7 +17,6 @@ namespace MainMailApiMultiSwagger.Controllers
     [ApiExplorerSettings(GroupName = "registration")]
     public class RegistrationController : ControllerBase
     {
-
         [AllowAnonymous]
         [HttpPost]
         [Route("AdminRegistration")]
@@ -122,33 +124,114 @@ namespace MainMailApiMultiSwagger.Controllers
         [HttpPost]
         [Route("CheckUsersRole")]
         [Authorize(Roles = "Adminstrator, Adminhelper")]
-        public ActionResult<bool> CheckUser(string name)
+        public async Task<IActionResult> CheckUser(string name)
         {
 
-            //var res = _userRepository.UserExists(name);
-            //if (res == false)
-            //    return StatusCode(500);
-            return Ok();
+            var token = HttpContext.Session.GetString("JWToken");
+            try
+            {
+                using var httpClient = new HttpClient();
+                using var request = new HttpRequestMessage(new HttpMethod("POST"), $"https://localhost:7175/Restricted/GetkUserRole?name={name}");
+
+                request.Headers.TryAddWithoutValidation("accept", "*/*");
+                request.Headers.TryAddWithoutValidation("Authorization", $"Bearer {token}");
+
+                var response = await httpClient.SendAsync(request);
+
+                if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    string apiResponse = await response.Content.ReadAsStringAsync();
+                    return Ok(apiResponse);
+                }
+                return StatusCode(500);
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, e.Message);
+            }
         }
 
         [HttpPost]
         [Route("ChangeUsersRole")]
         [Authorize(Roles = "Adminstrator")]
-        public ActionResult<bool> ChangeRole(string name)
+        public async Task<IActionResult> ChangeRole(string name)
         {
-
-            //var res = _userRepository.UserExists(name);
-            //if (res == false)
-            //    return StatusCode(500);
-            return Ok();
+            var token = HttpContext.Session.GetString("JWToken");
+            try
+            {
+                using var httpClient = new HttpClient();
+                using var request = new HttpRequestMessage(new HttpMethod("PUT"), $"https://localhost:7175/Restricted/ChangeUserRole?name={name}");
+                request.Headers.TryAddWithoutValidation("accept", "*/*");
+                request.Headers.TryAddWithoutValidation("Authorization", $"Bearer {token}");
+                var response = await httpClient.SendAsync(request);
+                if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    string apiResponse = await response.Content.ReadAsStringAsync();
+                    return Ok(apiResponse);
+                }
+                return StatusCode(500);
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, e.Message);
+            }
         }
+        
         [HttpDelete]
         [Route("DeleteUser")]
         [Authorize(Roles = "Adminstrator, Adminhelper")]
         public async Task<IActionResult> DeleteUser(string name)
         {
-            //_userRepository.DeleteUser(name);
-            return Ok();
+            var token = HttpContext.Session.GetString("JWToken");
+            StringBuilder sb = new StringBuilder();
+            try
+            {
+                using var httpClient = new HttpClient();
+                using var request = new HttpRequestMessage(new HttpMethod("DELETE"), $"https://localhost:7175/Restricted/DeleteUser?name={name}");
+                request.Headers.TryAddWithoutValidation("accept", "*/*");
+                request.Headers.TryAddWithoutValidation("Authorization", $"Bearer {token}");
+                var response = await httpClient.SendAsync(request);
+                if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    //string apiResponse = await response.Content.ReadAsStringAsync();
+                    //*************
+                    using var httpClient2 = new HttpClient();
+                    using var response2 = await httpClient.GetAsync($"https://localhost:7126/Message/GetAllMessages?userName={name}");
+                    if (response2.StatusCode == System.Net.HttpStatusCode.OK)
+                    {
+                        string apiResponse2 = await response2.Content.ReadAsStringAsync();
+                        var postList2 = JsonConvert.DeserializeObject<List<MessageDto>>(apiResponse2);
+                        //**
+                        //**
+                        foreach(var post in postList2)
+                        {
+                            using var httpClient3 = new HttpClient();
+                            using var request3 = new HttpRequestMessage(new HttpMethod("DELETE"), $"https://localhost:7126/Message/DeleteMessage?Id={post.Id}");
+                            request3.Headers.TryAddWithoutValidation("accept", "*/*");
+                            var response3 = await httpClient.SendAsync(request3);
+                            if (response3.StatusCode == System.Net.HttpStatusCode.OK)
+                            {
+                                //string apiResponse3 = await response.Content.ReadAsStringAsync();
+                                //sb.Append($"message id:{post.Id} delited\n");
+                                sb.Append($"{await response.Content.ReadAsStringAsync()} \n");
+                            }
+                            else sb.Append($"{await response.Content.ReadAsStringAsync()} \n");
+                        }
+                        //**
+                        //**
+                    }
+                    //****************
+                    return Ok($"user {name} successful deleted\n" + sb);
+                    //return Ok($"{apiResponse}\n + {sb}");
+                }
+                return StatusCode(500);
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, e.Message);
+            }
         }
     }
 }
+
+

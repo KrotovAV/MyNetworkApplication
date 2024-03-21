@@ -71,8 +71,8 @@ namespace MessageService.Controllers
         {
             bool result = _messageRepository.DeleteMessage(Id);
             if(result == true) 
-                return Ok("Message delete");
-            return Ok("Message not found");
+                return Ok($"Message id:{Id} delete");
+            return Ok($"Message id:{Id} not found");
         }
 
     }

@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 using System.Text;
 using AutoMapper;
+using Castle.Core.Resource;
+using DataBaseUsers;
+using DataBaseUsers.BD;
 using Microsoft.EntityFrameworkCore;
-using UserService;
-using UserService.BD;
 using UserService.Dto;
 
 namespace UserService.Repository
@@ -82,21 +80,12 @@ namespace UserService.Repository
         {
             using (var context = new UserContext())
             {
-                //var users = context.Users.Where(x => x.RoleId == RoleId.User || x.RoleId == RoleId.Adminhelper);
-                //List<UserDtoUs> usersDtoUs = _mapper.Map<UserDtoUs>(users).ToList();
-                //return usersDtoUs;
-
-                //var users = context.Users.Select(_mapper.Map<UserDtoUs>).ToList();
-                //return users;
-
                 var users = context.Users.Select(_mapper.Map<UserDtoUs>)
                     .Where(x => x.RoleId == RoleId.User || x.RoleId == RoleId.Adminhelper)
                     .ToList();
                 return users;
 
             }
-            //return context.Users.ToList();
-
         }
 
         public bool UserExists(string name)
@@ -113,6 +102,47 @@ namespace UserService.Repository
             }
         }
 
+        public string GetUserRole(string name)
+        {
+            using (var context = new UserContext())
+            {
+                var user = context.Users.FirstOrDefault(x => x.Name == name);
+
+                if (user != null)
+                {
+                    //UserRole role = (UserRole)Enum.Parse(typeof(UserRole), user.RoleId.ToString());
+                    string role = user.RoleId.ToString();
+                    return role;
+                }
+                throw new Exception("User not found");
+            }
+        }
+        
+        public string ChangeUserRole(string name)
+        {
+            using (var context = new UserContext())
+            {
+                var user = context.Users.FirstOrDefault(x => x.Name == name);
+                if (user != null)
+                {
+                    string oldRole = user.RoleId.ToString();
+                    if (user.RoleId == RoleId.Adminhelper || user.RoleId == RoleId.User) 
+                    {
+                        if (user.RoleId == RoleId.Adminhelper) 
+                            user.RoleId = RoleId.User;
+                        else 
+                            user.RoleId = RoleId.Adminhelper;
+
+                        context.SaveChanges();
+                        return $"{user.Name} change role from {oldRole} to {user.RoleId}.";
+                    }
+                    return "Administrator cant change role!";
+                }
+   
+                throw new Exception("User not found.");
+            }
+        }
+        
         public void DeleteUser(string name)
         {
             using (var context = new UserContext())
@@ -124,7 +154,7 @@ namespace UserService.Repository
                     throw new Exception("User not found");
                 }
 
-                if (user.Name == "admin")
+                if (user.RoleId == RoleId.Admin)
                 {
                     throw new Exception("Admin cant del himself");
                 }

@@ -1,5 +1,5 @@
-﻿using UserService.AuthorizationModel;
-using UserService.BD;
+﻿using DataBaseUsers.BD;
+using UserService.AuthorizationModel;
 
 namespace UserService.Dto
 {

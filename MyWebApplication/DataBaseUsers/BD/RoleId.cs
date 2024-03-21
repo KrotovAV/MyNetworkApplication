@@ -1,4 +1,4 @@
-﻿namespace UserService.BD
+﻿namespace DataBaseUsers.BD
 {
     public enum RoleId
     {
