@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KaJEcUcq2BSoklwN0JRejtMQ/X/yCJJYPGm18xOZhUfM7WKOMEIi7MyfDENHyE6MMdP4c9f3LrsZ31ukwqt1OQ==",
+  "dgSpecHash": "+AqwUj7Hx98ATt3ovdt/F7CTCRjTTaXHjMbOMNxhpcBiRyvvoI5CtHJ0cLImo94o3VFb/jInxphU/5LNuMQ6Vw==",
   "success": true,
-  "projectFilePath": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\DataBaseUsers\\DataBaseUsers.csproj",
+  "projectFilePath": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseUsers\\DataBaseUsers.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\10\\.nuget\\packages\\autofac\\8.0.0\\autofac.8.0.0.nupkg.sha512",
     "C:\\Users\\10\\.nuget\\packages\\autofac.extensions.dependencyinjection\\9.0.0\\autofac.extensions.dependencyinjection.9.0.0.nupkg.sha512",

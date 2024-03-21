@@ -1,0 +1,7 @@
+D:\Работа\Portfolio\MyWebApplication\MainMailMessageApp\obj\Debug\net7.0\MainMailMessageApp.csproj.AssemblyReference.cache
+D:\Работа\Portfolio\MyWebApplication\MainMailMessageApp\obj\Debug\net7.0\MainMailMessageApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Работа\Portfolio\MyWebApplication\MainMailMessageApp\obj\Debug\net7.0\MainMailMessageApp.AssemblyInfoInputs.cache
+D:\Работа\Portfolio\MyWebApplication\MainMailMessageApp\obj\Debug\net7.0\MainMailMessageApp.AssemblyInfo.cs
+D:\Работа\Portfolio\MyWebApplication\MainMailMessageApp\obj\Debug\net7.0\MainMailMessageApp.csproj.CoreCompileInputs.cache
+D:\Работа\Portfolio\MyWebApplication\MainMailMessageApp\obj\Debug\net7.0\MainMailMessageApp.MvcApplicationPartsAssemblyInfo.cs
+D:\Работа\Portfolio\MyWebApplication\MainMailMessageApp\obj\Debug\net7.0\MainMailMessageApp.MvcApplicationPartsAssemblyInfo.cache

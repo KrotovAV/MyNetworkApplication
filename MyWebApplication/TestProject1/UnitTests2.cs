@@ -1,5 +1,5 @@
-﻿using DataBaseUsers.BD;
-using DataBaseUsers.Repository;
+﻿using UserService.BD;
+using UserService.Repository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Moq;

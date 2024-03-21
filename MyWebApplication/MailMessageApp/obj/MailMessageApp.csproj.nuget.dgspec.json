@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\MailMessageApp\\MailMessageApp.csproj": {}
+    "D:\\Работа\\Portfolio\\MyWebApplication\\MailMessageApp\\MailMessageApp.csproj": {}
   },
   "projects": {
-    "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\MailMessageApp\\MailMessageApp.csproj": {
+    "D:\\Работа\\Portfolio\\MyWebApplication\\MailMessageApp\\MailMessageApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\MailMessageApp\\MailMessageApp.csproj",
+        "projectUniqueName": "D:\\Работа\\Portfolio\\MyWebApplication\\MailMessageApp\\MailMessageApp.csproj",
         "projectName": "MailMessageApp",
-        "projectPath": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\MailMessageApp\\MailMessageApp.csproj",
+        "projectPath": "D:\\Работа\\Portfolio\\MyWebApplication\\MailMessageApp\\MailMessageApp.csproj",
         "packagesPath": "C:\\Users\\10\\.nuget\\packages\\",
-        "outputPath": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\MailMessageApp\\obj\\",
+        "outputPath": "D:\\Работа\\Portfolio\\MyWebApplication\\MailMessageApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\10\\AppData\\Roaming\\NuGet\\NuGet.Config",

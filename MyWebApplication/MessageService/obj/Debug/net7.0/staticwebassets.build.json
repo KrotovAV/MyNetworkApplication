@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "NG14XPVtVu1jS8gtYZO0QmQfEusOmS1cXlyNDCqfR44=",
+  "Hash": "X+JSy3FqXIAbK/DU5f37UR8qVlZf/67RA2xMPxdHIiY=",
   "Source": "MessageService",
   "BasePath": "_content/MessageService",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\DataBaseMessage\\DataBaseMessage.csproj",
+      "Identity": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseMessage\\DataBaseMessage.csproj",
       "Version": 2,
       "Source": "DataBaseMessage",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

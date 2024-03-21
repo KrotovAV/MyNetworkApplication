@@ -31,6 +31,9 @@ namespace DataBaseMessage.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
+                    b.Property<DateTime>("DateTime")
+                        .HasColumnType("timestamp with time zone");
+
                     b.Property<bool>("IsReceived")
                         .HasColumnType("boolean");
 

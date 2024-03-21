@@ -1,4 +1,5 @@
-using DataBaseMessage.Repository;
+using DataBaseMessage;
+using MessageService.Repository;
 
 namespace MessageService
 {

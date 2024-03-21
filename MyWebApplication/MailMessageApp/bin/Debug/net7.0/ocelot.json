@@ -16,6 +16,15 @@
     },
     //Messageservice
     {
+      //-------------добавлено из примера-----------------
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "UserType": "authorized"
+      },
+      //-------------------
       "DownstreamPathTemplate": "/Message/{method}",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [

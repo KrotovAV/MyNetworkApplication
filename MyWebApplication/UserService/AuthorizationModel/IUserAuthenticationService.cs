@@ -1,5 +1,7 @@
-﻿namespace UserService.AuthorizationModel;
-
-public interface IUserAuthenticationService {
-    UserModel Authenticate(LoginModel model);
+﻿namespace UserService.AuthorizationModel
+{
+    public interface IUserAuthenticationService
+    {
+        UserDto Authenticate(LoginModel model);
+    }
 }

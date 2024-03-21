@@ -1,5 +1,5 @@
 using DataBaseMessage.Repository;
-using DataBaseUsers.Repository;
+using UserService.Repository;
 using MessageService.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using UserService.AuthorizationModel;

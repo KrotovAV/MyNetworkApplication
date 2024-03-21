@@ -1,5 +1,5 @@
 
-namespace DataBaseUsers
+namespace UserService
 {
     public class Program
     {

@@ -5,16 +5,16 @@ using Microsoft.OpenApi.Models;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 using UserService.AuthorizationModel;
-using DataBaseUsers.BD;
-using DataBaseUsers.Repository;
+using UserService.BD;
+using UserService.Repository;
 using System.Security.Cryptography;
-
+using UserService.Mapper;
+using Autofac.Extensions.DependencyInjection;
 
 namespace UserService
 {
     public class Program
     {
-        
         static RSA GetPublicKey()
         {
             var f = File.ReadAllText("rsa/public_key.pem");
@@ -28,17 +28,17 @@ namespace UserService
         {
             var builder = WebApplication.CreateBuilder(args);
 
-
-
             builder.Services.AddControllers();
+
+            builder.Services.AddAutoMapper(typeof(MapperProfile));
             
             builder.Services.AddEndpointsApiExplorer();
 
-          
-
             builder.Services.AddTransient<IUserRepository, UserRepository>();
-            builder.Services.AddTransient<IUserAuthenticationService, AuthenticationMock>();
 
+            //builder.Services.AddScoped<IUserAuthenticationService, UserAuthenticationService>();
+            builder.Services.AddTransient<IUserAuthenticationService, UserAuthenticationService>();
+            
             builder.Services.AddSwaggerGen(opt =>
             {
                 opt.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -79,13 +79,11 @@ namespace UserService
                     ValidateIssuerSigningKey = true,
                     ValidIssuer = builder.Configuration["Jwt:Issuer"],
                     ValidAudience = builder.Configuration["Jwt:Audience"],
-                    //IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
 
-                    IssuerSigningKey = new RsaSecurityKey(GetPublicKey())
+                    //IssuerSigningKey = new RsaSecurityKey(GetPublicKey())
                 };
             });
-
-
 
             var app = builder.Build();
 
@@ -96,10 +94,10 @@ namespace UserService
             }
 
             app.UseHttpsRedirection();
+
             app.UseAuthentication();
             app.UseAuthorization();
             
-
             app.MapControllers();
 
             app.Run();

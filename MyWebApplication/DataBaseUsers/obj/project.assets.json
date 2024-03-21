@@ -7313,11 +7313,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\DataBaseUsers\\DataBaseUsers.csproj",
+      "projectUniqueName": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseUsers\\DataBaseUsers.csproj",
       "projectName": "DataBaseUsers",
-      "projectPath": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\DataBaseUsers\\DataBaseUsers.csproj",
+      "projectPath": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseUsers\\DataBaseUsers.csproj",
       "packagesPath": "C:\\Users\\10\\.nuget\\packages\\",
-      "outputPath": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\DataBaseUsers\\obj\\",
+      "outputPath": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseUsers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\10\\AppData\\Roaming\\NuGet\\NuGet.Config",

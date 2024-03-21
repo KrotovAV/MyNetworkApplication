@@ -1,6 +1,9 @@
-﻿namespace UserService.AuthorizationModel;
-
-public enum UserRole {
-    Adminstrator,
-    User
+﻿namespace UserService.AuthorizationModel
+{
+    public enum UserRole
+    {
+        Adminstrator,
+        User,
+        Adminhelper
+    }
 }

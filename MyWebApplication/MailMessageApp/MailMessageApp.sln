@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailMessageApp", "MailMessageApp.csproj", "{22C9B11B-21C6-41B7-BB50-C37B828122F5}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataBaseUsers", "..\DataBaseUsers\DataBaseUsers.csproj", "{009E9F37-A1CD-4020-B5B7-1E462D9455E2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService", "..\UserService\UserService.csproj", "{0F65EAF2-746A-4153-B96D-FCA2E8BC6F50}"
@@ -16,7 +14,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataBaseMessage", "..\DataB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageService", "..\MessageService\MessageService.csproj", "{42802D14-2D9A-4E49-819B-C9A6A318FFF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "..\TestProject1\TestProject1.csproj", "{3674ADD4-0242-4A1C-B973-ED32E84115E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject1", "..\TestProject1\TestProject1.csproj", "{3674ADD4-0242-4A1C-B973-ED32E84115E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainMailApiMultiSwagger", "..\MailApp_Api_Swag\MainMailApiMultiSwagger.csproj", "{74BB3E9F-1693-4936-8429-FFFE30D2CB34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,14 +24,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{22C9B11B-21C6-41B7-BB50-C37B828122F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{22C9B11B-21C6-41B7-BB50-C37B828122F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{22C9B11B-21C6-41B7-BB50-C37B828122F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{22C9B11B-21C6-41B7-BB50-C37B828122F5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{009E9F37-A1CD-4020-B5B7-1E462D9455E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{009E9F37-A1CD-4020-B5B7-1E462D9455E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{009E9F37-A1CD-4020-B5B7-1E462D9455E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{009E9F37-A1CD-4020-B5B7-1E462D9455E2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0F65EAF2-746A-4153-B96D-FCA2E8BC6F50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0F65EAF2-746A-4153-B96D-FCA2E8BC6F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F65EAF2-746A-4153-B96D-FCA2E8BC6F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,7 +34,6 @@ Global
 		{77B69E61-EAAD-4466-ACA7-9DF9170AF148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{77B69E61-EAAD-4466-ACA7-9DF9170AF148}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77B69E61-EAAD-4466-ACA7-9DF9170AF148}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77B69E61-EAAD-4466-ACA7-9DF9170AF148}.Release|Any CPU.Build.0 = Release|Any CPU
 		{42802D14-2D9A-4E49-819B-C9A6A318FFF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{42802D14-2D9A-4E49-819B-C9A6A318FFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42802D14-2D9A-4E49-819B-C9A6A318FFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,7 +41,9 @@ Global
 		{3674ADD4-0242-4A1C-B973-ED32E84115E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3674ADD4-0242-4A1C-B973-ED32E84115E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3674ADD4-0242-4A1C-B973-ED32E84115E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3674ADD4-0242-4A1C-B973-ED32E84115E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74BB3E9F-1693-4936-8429-FFFE30D2CB34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74BB3E9F-1693-4936-8429-FFFE30D2CB34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74BB3E9F-1693-4936-8429-FFFE30D2CB34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

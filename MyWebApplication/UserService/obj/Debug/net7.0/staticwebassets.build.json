@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "QiHXfllv5gsk0tFOB/F10/tPjN00FCuUjVcSLH/XpXk=",
+  "Hash": "3x6lZU7z1QKlEiqE4/xC9/8mev/vDGfvvuBerCPQOGE=",
   "Source": "UserService",
   "BasePath": "_content/UserService",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\DataBaseUsers\\DataBaseUsers.csproj",
+      "Identity": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseUsers\\DataBaseUsers.csproj",
       "Version": 2,
       "Source": "DataBaseUsers",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

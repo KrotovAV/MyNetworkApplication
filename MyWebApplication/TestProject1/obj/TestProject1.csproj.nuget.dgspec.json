@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\TestProject1\\TestProject1.csproj": {}
+    "D:\\Работа\\Portfolio\\MyWebApplication\\TestProject1\\TestProject1.csproj": {}
   },
   "projects": {
-    "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\DataBaseMessage\\DataBaseMessage.csproj": {
+    "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseMessage\\DataBaseMessage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\DataBaseMessage\\DataBaseMessage.csproj",
+        "projectUniqueName": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseMessage\\DataBaseMessage.csproj",
         "projectName": "DataBaseMessage",
-        "projectPath": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\DataBaseMessage\\DataBaseMessage.csproj",
+        "projectPath": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseMessage\\DataBaseMessage.csproj",
         "packagesPath": "C:\\Users\\10\\.nuget\\packages\\",
-        "outputPath": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\DataBaseMessage\\obj\\",
+        "outputPath": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseMessage\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -106,14 +106,14 @@
         }
       }
     },
-    "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\DataBaseUsers\\DataBaseUsers.csproj": {
+    "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseUsers\\DataBaseUsers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\DataBaseUsers\\DataBaseUsers.csproj",
+        "projectUniqueName": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseUsers\\DataBaseUsers.csproj",
         "projectName": "DataBaseUsers",
-        "projectPath": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\DataBaseUsers\\DataBaseUsers.csproj",
+        "projectPath": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseUsers\\DataBaseUsers.csproj",
         "packagesPath": "C:\\Users\\10\\.nuget\\packages\\",
-        "outputPath": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\DataBaseUsers\\obj\\",
+        "outputPath": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseUsers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -234,14 +234,14 @@
         }
       }
     },
-    "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\MessageService\\MessageService.csproj": {
+    "D:\\Работа\\Portfolio\\MyWebApplication\\MessageService\\MessageService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\MessageService\\MessageService.csproj",
+        "projectUniqueName": "D:\\Работа\\Portfolio\\MyWebApplication\\MessageService\\MessageService.csproj",
         "projectName": "MessageService",
-        "projectPath": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\MessageService\\MessageService.csproj",
+        "projectPath": "D:\\Работа\\Portfolio\\MyWebApplication\\MessageService\\MessageService.csproj",
         "packagesPath": "C:\\Users\\10\\.nuget\\packages\\",
-        "outputPath": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\MessageService\\obj\\",
+        "outputPath": "D:\\Работа\\Portfolio\\MyWebApplication\\MessageService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -258,8 +258,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\DataBaseMessage\\DataBaseMessage.csproj": {
-                "projectPath": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\DataBaseMessage\\DataBaseMessage.csproj"
+              "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseMessage\\DataBaseMessage.csproj": {
+                "projectPath": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseMessage\\DataBaseMessage.csproj"
               }
             }
           }
@@ -278,6 +278,10 @@
               "target": "Package",
               "version": "[7.0.1, )"
             },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.11, )"
@@ -285,6 +289,10 @@
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[7.0.11, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Ocelot": {
               "target": "Package",
@@ -318,14 +326,14 @@
         }
       }
     },
-    "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\TestProject1\\TestProject1.csproj": {
+    "D:\\Работа\\Portfolio\\MyWebApplication\\TestProject1\\TestProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\TestProject1\\TestProject1.csproj",
+        "projectUniqueName": "D:\\Работа\\Portfolio\\MyWebApplication\\TestProject1\\TestProject1.csproj",
         "projectName": "TestProject1",
-        "projectPath": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\TestProject1\\TestProject1.csproj",
+        "projectPath": "D:\\Работа\\Portfolio\\MyWebApplication\\TestProject1\\TestProject1.csproj",
         "packagesPath": "C:\\Users\\10\\.nuget\\packages\\",
-        "outputPath": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\TestProject1\\obj\\",
+        "outputPath": "D:\\Работа\\Portfolio\\MyWebApplication\\TestProject1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -342,17 +350,17 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\DataBaseMessage\\DataBaseMessage.csproj": {
-                "projectPath": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\DataBaseMessage\\DataBaseMessage.csproj"
+              "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseMessage\\DataBaseMessage.csproj": {
+                "projectPath": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseMessage\\DataBaseMessage.csproj"
               },
-              "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\DataBaseUsers\\DataBaseUsers.csproj": {
-                "projectPath": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\DataBaseUsers\\DataBaseUsers.csproj"
+              "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseUsers\\DataBaseUsers.csproj": {
+                "projectPath": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseUsers\\DataBaseUsers.csproj"
               },
-              "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\MessageService\\MessageService.csproj": {
-                "projectPath": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\MessageService\\MessageService.csproj"
+              "D:\\Работа\\Portfolio\\MyWebApplication\\MessageService\\MessageService.csproj": {
+                "projectPath": "D:\\Работа\\Portfolio\\MyWebApplication\\MessageService\\MessageService.csproj"
               },
-              "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\UserService\\UserService.csproj": {
-                "projectPath": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\UserService\\UserService.csproj"
+              "D:\\Работа\\Portfolio\\MyWebApplication\\UserService\\UserService.csproj": {
+                "projectPath": "D:\\Работа\\Portfolio\\MyWebApplication\\UserService\\UserService.csproj"
               }
             }
           }
@@ -416,14 +424,14 @@
         }
       }
     },
-    "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\UserService\\UserService.csproj": {
+    "D:\\Работа\\Portfolio\\MyWebApplication\\UserService\\UserService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\UserService\\UserService.csproj",
+        "projectUniqueName": "D:\\Работа\\Portfolio\\MyWebApplication\\UserService\\UserService.csproj",
         "projectName": "UserService",
-        "projectPath": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\UserService\\UserService.csproj",
+        "projectPath": "D:\\Работа\\Portfolio\\MyWebApplication\\UserService\\UserService.csproj",
         "packagesPath": "C:\\Users\\10\\.nuget\\packages\\",
-        "outputPath": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\UserService\\obj\\",
+        "outputPath": "D:\\Работа\\Portfolio\\MyWebApplication\\UserService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -440,8 +448,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\DataBaseUsers\\DataBaseUsers.csproj": {
-                "projectPath": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\DataBaseUsers\\DataBaseUsers.csproj"
+              "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseUsers\\DataBaseUsers.csproj": {
+                "projectPath": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseUsers\\DataBaseUsers.csproj"
               }
             }
           }
@@ -469,6 +477,22 @@
               "version": "[7.0.1, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.11, )"
             },

@@ -1,67 +1,71 @@
-﻿using DataBaseUsers.BD;
-using DataBaseUsers.Repository;
+﻿using UserService;
+using UserService.BD;
+
 using Microsoft.EntityFrameworkCore;
 
-namespace DataBaseUsers;
-
-public class UserContext: DbContext {
-    public virtual DbSet<User> Users { get; set; }
-
-    public virtual DbSet<Role> Roles { get; set; }
-
-    public UserContext()
+namespace UserService
+{
+    public class UserContext : DbContext
     {
+        public virtual DbSet<User> Users { get; set; }
 
-    }
-    public UserContext(DbContextOptions dbc) : base(dbc)
-    {
+        public virtual DbSet<Role> Roles { get; set; }
 
-    }
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        var config = new ConfigurationBuilder()
-                    .AddJsonFile("appsettings.json")
-                    .SetBasePath(Directory.GetCurrentDirectory())
-                    .Build();
-
-        //optionsBuilder.UseMySql(config.GetConnectionString("Connection"),
-        //    new MySqlServerVersion(new Version(8, 0, 11)));
-
-        optionsBuilder.UseLazyLoadingProxies().
-                UseNpgsql(config.GetConnectionString("Connection"));
-    }
-
-    protected override void OnModelCreating(ModelBuilder modelBuilder) {
-        modelBuilder.Entity<User>(entity =>
+        public UserContext()
         {
-            entity.HasKey(e => e.Id).HasName("users_pkey");
-            entity.HasIndex(e => e.Name).IsUnique();
 
-            entity.ToTable("users");
+        }
+        public UserContext(DbContextOptions dbc) : base(dbc)
+        {
 
-            entity.Property(e => e.Id).HasColumnName("id");
-            entity.Property(e => e.Name)
-                .HasMaxLength(255)
-                .HasColumnName("name");
+        }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            var config = new ConfigurationBuilder()
+                        .AddJsonFile("appsettings.json")
+                        .SetBasePath(Directory.GetCurrentDirectory())
+                        .Build();
 
-            entity.Property(e => e.Password).HasColumnName("password");
-            entity.Property(e => e.Salt).HasColumnName("salt");
+            //optionsBuilder.UseMySql(config.GetConnectionString("Connection"),
+            //    new MySqlServerVersion(new Version(8, 0, 11)));
 
-            entity.Property(e => e.RoleId).HasConversion<int>();
-        });
+            optionsBuilder.UseLazyLoadingProxies().
+                    UseNpgsql(config.GetConnectionString("Connection"));
+        }
 
-        modelBuilder.Entity<Role>()
-            .Property(e => e.RoleId)
-            .HasConversion<int>();
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<User>(entity =>
+            {
+                entity.HasKey(e => e.Id).HasName("users_pkey");
+                entity.HasIndex(e => e.Name).IsUnique();
 
-        modelBuilder.Entity<Role>()
-            .HasData(Enum.GetValues(typeof(RoleId))
-            .Cast<RoleId>()
-            .Select(e => new Role() 
+                entity.ToTable("users");
+
+                entity.Property(e => e.Id).HasColumnName("id");
+                entity.Property(e => e.Name)
+                    .HasMaxLength(255)
+                    .HasColumnName("name");
+
+                entity.Property(e => e.Password).HasColumnName("password");
+                entity.Property(e => e.Salt).HasColumnName("salt");
+
+                entity.Property(e => e.RoleId).HasConversion<int>();
+            });
+
+            modelBuilder.Entity<Role>()
+                .Property(e => e.RoleId)
+                .HasConversion<int>();
+
+            modelBuilder.Entity<Role>()
+                .HasData(Enum.GetValues(typeof(RoleId))
+                .Cast<RoleId>()
+                .Select(e => new Role()
                 {
                     RoleId = e,
                     Name = e.ToString()
                 }
-            ));
+                ));
+        }
     }
 }

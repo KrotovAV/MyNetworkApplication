@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YFiltEKQhtdzMFskH5qcJVszKynq4S4ZlziO1OBBYdSDRMNxE3eEtWxMgfU/5xgKIYBs3RphKW1YaegSXzb9xw==",
+  "dgSpecHash": "ipTx4VQwN3h6UPw3cjvHOM7KcMYOCsiOnR1CN2tnLM7ojkyFitbKUdCwpvsZdbak9O8uPP7Q2ues42gwvv1VpQ==",
   "success": true,
-  "projectFilePath": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\DataBaseMessage\\DataBaseMessage.csproj",
+  "projectFilePath": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseMessage\\DataBaseMessage.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\10\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\10\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
