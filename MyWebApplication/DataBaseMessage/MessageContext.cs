@@ -26,9 +26,6 @@ namespace DataBaseMessage
                         .SetBasePath(Directory.GetCurrentDirectory())
                         .Build();
 
-            //optionsBuilder.UseMySql(config.GetConnectionString("Connection"),
-            //    new MySqlServerVersion(new Version(8, 0, 11)));
-
             optionsBuilder.UseLazyLoadingProxies().
                     UseNpgsql(config.GetConnectionString("Connection"));
         }

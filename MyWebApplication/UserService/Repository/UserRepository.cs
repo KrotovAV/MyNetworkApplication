@@ -1,7 +1,6 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 using AutoMapper;
-using Castle.Core.Resource;
 using DataBaseUsers;
 using DataBaseUsers.BD;
 using Microsoft.EntityFrameworkCore;
@@ -37,15 +36,10 @@ namespace UserService.Repository
 
                 user.Salt = new byte[16];
                 new Random().NextBytes(user.Salt);
-
                 var data = Encoding.ASCII.GetBytes(password).Concat(user.Salt).ToArray();
-
                 SHA512 shaM = new SHA512Managed();
-
                 user.Password = shaM.ComputeHash(data);
-
                 context.Add(user);
-
                 context.SaveChanges();
             }
         }
@@ -110,7 +104,6 @@ namespace UserService.Repository
 
                 if (user != null)
                 {
-                    //UserRole role = (UserRole)Enum.Parse(typeof(UserRole), user.RoleId.ToString());
                     string role = user.RoleId.ToString();
                     return role;
                 }
@@ -138,7 +131,6 @@ namespace UserService.Repository
                     }
                     return "Administrator cant change role!";
                 }
-   
                 throw new Exception("User not found.");
             }
         }

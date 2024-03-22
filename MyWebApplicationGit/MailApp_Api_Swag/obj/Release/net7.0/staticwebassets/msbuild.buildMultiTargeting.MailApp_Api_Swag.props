@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MailApp_Api_Swag.props" />
+</Project>

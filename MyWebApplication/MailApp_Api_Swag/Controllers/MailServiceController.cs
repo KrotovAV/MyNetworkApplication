@@ -1,24 +1,11 @@
 using MainMailApiMultiSwagger.Dto;
-using Microsoft.AspNetCore.Http.Json;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using System;
-using System.Collections.Generic;
-using System.Net;
-using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Security.Claims;
-using System.Security.Principal;
 using System.Text;
-using System.Text.Json;
 using System.IdentityModel.Tokens.Jwt;
-using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Authorization;
-using System.Xml.Linq;
-using Microsoft.AspNetCore.Http;
-
-
 
 namespace MainMailApiMultiSwagger.Controllers
 {
@@ -27,9 +14,7 @@ namespace MainMailApiMultiSwagger.Controllers
     [Tags("Mail Service Endpoints")]
     [ApiExplorerSettings(GroupName = "mail")]
     public class MailServiceController : ControllerBase
-    //public class MailServiceController : LogInOutController
     {
-
         //private readonly ILogger<MailServiceController> _logger;
         //private readonly IConfiguration _config;
 
@@ -113,7 +98,6 @@ namespace MainMailApiMultiSwagger.Controllers
         [Authorize(Roles = "Adminstrator, User, Adminhelper")]
         public async Task<IActionResult> SendMessage(string receiverName, string text)
         {
-         
             bool receverExist = await CheckUserExist(receiverName);
             if (receverExist == true)
             {

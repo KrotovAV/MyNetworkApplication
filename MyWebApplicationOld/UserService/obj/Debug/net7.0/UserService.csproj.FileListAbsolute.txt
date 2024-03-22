@@ -1,0 +1,218 @@
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\obj\Debug\net7.0\UserService.csproj.AssemblyReference.cache
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\obj\Debug\net7.0\UserService.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\obj\Debug\net7.0\UserService.AssemblyInfoInputs.cache
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\obj\Debug\net7.0\UserService.AssemblyInfo.cs
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\obj\Debug\net7.0\UserService.csproj.CoreCompileInputs.cache
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\obj\Debug\net7.0\UserService.MvcApplicationPartsAssemblyInfo.cs
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\obj\Debug\net7.0\UserService.MvcApplicationPartsAssemblyInfo.cache
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\DataBaseUsers.deps.json
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\DataBaseUsers.runtimeconfig.json
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\DataBaseUsers.exe
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\appsettings.Development.json
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\appsettings.json
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\UserService.exe
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\UserService.deps.json
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\UserService.runtimeconfig.json
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\UserService.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\UserService.pdb
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Autofac.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\AutoMapper.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Castle.Core.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\EntityFramework.SqlServer.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\EntityFramework.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\MySqlConnector.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\System.CodeDom.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\System.Data.SqlClient.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\DataBaseUsers.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\DataBaseUsers.pdb
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\obj\Debug\net7.0\staticwebassets\msbuild.UserService.Microsoft.AspNetCore.StaticWebAssets.props
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\obj\Debug\net7.0\staticwebassets\msbuild.build.UserService.props
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UserService.props
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UserService.props
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\obj\Debug\net7.0\staticwebassets.pack.json
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\obj\Debug\net7.0\staticwebassets.build.json
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\obj\Debug\net7.0\staticwebassets.development.json
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\obj\Debug\net7.0\scopedcss\bundle\UserService.styles.css
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\obj\Debug\net7.0\UserService.csproj.CopyComplete
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\obj\Debug\net7.0\UserService.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\obj\Debug\net7.0\refint\UserService.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\obj\Debug\net7.0\UserService.pdb
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\obj\Debug\net7.0\UserService.genruntimeconfig.cache
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\obj\Debug\net7.0\ref\UserService.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Azure.Core.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Azure.Identity.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\FluentValidation.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\IPAddressRange.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Kros.Utils.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\MMLib.SwaggerForOcelot.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Ocelot.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\System.Memory.Data.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Npgsql.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\appsettings.Development.json
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\appsettings.json
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\DataBaseUsers.deps.json
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\DataBaseUsers.runtimeconfig.json
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\DataBaseUsers.exe
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\UserService.exe
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\UserService.deps.json
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\UserService.runtimeconfig.json
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\UserService.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\UserService.pdb
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Autofac.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\AutoMapper.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Azure.Core.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Azure.Identity.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Castle.Core.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\EntityFramework.SqlServer.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\EntityFramework.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\FluentValidation.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\IPAddressRange.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Kros.Utils.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\MMLib.SwaggerForOcelot.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\MySqlConnector.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Npgsql.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Ocelot.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\System.CodeDom.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\System.Data.SqlClient.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\System.Memory.Data.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\DataBaseUsers.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\DataBaseUsers.pdb
+D:\Работа\Portfolio\MyWebApplication\UserService\obj\Debug\net7.0\UserService.csproj.AssemblyReference.cache
+D:\Работа\Portfolio\MyWebApplication\UserService\obj\Debug\net7.0\UserService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Работа\Portfolio\MyWebApplication\UserService\obj\Debug\net7.0\UserService.AssemblyInfoInputs.cache
+D:\Работа\Portfolio\MyWebApplication\UserService\obj\Debug\net7.0\UserService.AssemblyInfo.cs
+D:\Работа\Portfolio\MyWebApplication\UserService\obj\Debug\net7.0\UserService.csproj.CoreCompileInputs.cache
+D:\Работа\Portfolio\MyWebApplication\UserService\obj\Debug\net7.0\UserService.MvcApplicationPartsAssemblyInfo.cs
+D:\Работа\Portfolio\MyWebApplication\UserService\obj\Debug\net7.0\UserService.MvcApplicationPartsAssemblyInfo.cache
+D:\Работа\Portfolio\MyWebApplication\UserService\obj\Debug\net7.0\staticwebassets\msbuild.UserService.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Работа\Portfolio\MyWebApplication\UserService\obj\Debug\net7.0\staticwebassets\msbuild.build.UserService.props
+D:\Работа\Portfolio\MyWebApplication\UserService\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UserService.props
+D:\Работа\Portfolio\MyWebApplication\UserService\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UserService.props
+D:\Работа\Portfolio\MyWebApplication\UserService\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Работа\Portfolio\MyWebApplication\UserService\obj\Debug\net7.0\staticwebassets.build.json
+D:\Работа\Portfolio\MyWebApplication\UserService\obj\Debug\net7.0\staticwebassets.development.json
+D:\Работа\Portfolio\MyWebApplication\UserService\obj\Debug\net7.0\scopedcss\bundle\UserService.styles.css
+D:\Работа\Portfolio\MyWebApplication\UserService\obj\Debug\net7.0\UserService.csproj.CopyComplete
+D:\Работа\Portfolio\MyWebApplication\UserService\obj\Debug\net7.0\UserService.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\obj\Debug\net7.0\refint\UserService.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\obj\Debug\net7.0\UserService.pdb
+D:\Работа\Portfolio\MyWebApplication\UserService\obj\Debug\net7.0\UserService.genruntimeconfig.cache
+D:\Работа\Portfolio\MyWebApplication\UserService\obj\Debug\net7.0\ref\UserService.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Humanizer.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Работа\Portfolio\MyWebApplication\UserService\bin\Debug\net7.0\Mono.TextTemplating.dll

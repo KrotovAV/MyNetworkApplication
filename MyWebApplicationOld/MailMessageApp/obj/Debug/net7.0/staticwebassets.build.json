@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EmLPOv8tTnJ5a546UrPTea57TOBRcFUX3QZspwHoEiE=",
+  "Source": "MailApp_API_Gateway",
+  "BasePath": "_content/MailApp_API_Gateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "e60577d7-b376-46c7-b1d0-f5cfcf6c13eb",
+		"name": "MessageServiceTests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "32743386"
+	},
+	"item": [
+		{
+			"name": "GetUsersMesages",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7126/Message/GetMessages?userName=user2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7126",
+					"path": [
+						"Message",
+						"GetMessages"
+					],
+					"query": [
+						{
+							"key": "userName",
+							"value": "user2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SendMessage",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7126/Message/SendMessage?text=string&senderName=user1&receiverName=user789",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7126",
+					"path": [
+						"Message",
+						"SendMessage"
+					],
+					"query": [
+						{
+							"key": "text",
+							"value": "string"
+						},
+						{
+							"key": "senderName",
+							"value": "user1"
+						},
+						{
+							"key": "receiverName",
+							"value": "user789"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

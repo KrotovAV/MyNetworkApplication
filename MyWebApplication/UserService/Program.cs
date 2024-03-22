@@ -1,28 +1,16 @@
-
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using System.ComponentModel.DataAnnotations;
 using System.Text;
 using UserService.AuthorizationModel;
 using UserService.Repository;
-using System.Security.Cryptography;
 using UserService.Mapper;
-using Autofac.Extensions.DependencyInjection;
 
 namespace UserService
 {
     public class Program
     {
-        static RSA GetPublicKey()
-        {
-            var f = File.ReadAllText("rsa/public_key.pem");
-
-            var rsa = RSA.Create();
-            rsa.ImportFromPem(f);
-            return rsa;
-        }
-    
+   
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
@@ -35,7 +23,6 @@ namespace UserService
 
             builder.Services.AddTransient<IUserRepository, UserRepository>();
 
-            //builder.Services.AddScoped<IUserAuthenticationService, UserAuthenticationService>();
             builder.Services.AddTransient<IUserAuthenticationService, UserAuthenticationService>();
             
             builder.Services.AddSwaggerGen(opt =>
@@ -79,8 +66,6 @@ namespace UserService
                     ValidIssuer = builder.Configuration["Jwt:Issuer"],
                     ValidAudience = builder.Configuration["Jwt:Audience"],
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
-
-                    //IssuerSigningKey = new RsaSecurityKey(GetPublicKey())
                 };
             });
 

@@ -1,7 +1,6 @@
 ﻿using DataBaseUsers.BD;
 using System.Security.Cryptography;
 using System.Text;
-using UserService.AuthorizationModel;
 using DataBaseUsers;
 namespace UserService.AuthorizationModel
 {

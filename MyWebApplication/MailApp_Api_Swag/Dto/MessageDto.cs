@@ -1,6 +1,5 @@
 ﻿namespace MainMailApiMultiSwagger.Dto
 {
-
     public class MessageDto
     {
         public Guid Id { get; set; }

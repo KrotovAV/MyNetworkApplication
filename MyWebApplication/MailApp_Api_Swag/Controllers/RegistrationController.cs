@@ -1,13 +1,9 @@
 ﻿using MainMailApiMultiSwagger.Dto;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
-using System.Xml.Linq;
 
 namespace MainMailApiMultiSwagger.Controllers
 {
@@ -41,7 +37,6 @@ namespace MainMailApiMultiSwagger.Controllers
                 if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 {
                     var token = await response.Content.ReadAsStringAsync();
-
                     //if (token != null)
                     //{
                     HttpContext.Session.SetString("JWToken", token);
@@ -126,7 +121,6 @@ namespace MainMailApiMultiSwagger.Controllers
         [Authorize(Roles = "Adminstrator, Adminhelper")]
         public async Task<IActionResult> CheckUser(string name)
         {
-
             var token = HttpContext.Session.GetString("JWToken");
             try
             {
@@ -215,7 +209,8 @@ namespace MainMailApiMultiSwagger.Controllers
                                 //sb.Append($"message id:{post.Id} delited\n");
                                 sb.Append($"{await response.Content.ReadAsStringAsync()} \n");
                             }
-                            else sb.Append($"{await response.Content.ReadAsStringAsync()} \n");
+                            else 
+                                sb.Append($"{await response.Content.ReadAsStringAsync()} \n");
                         }
                         //**
                         //**

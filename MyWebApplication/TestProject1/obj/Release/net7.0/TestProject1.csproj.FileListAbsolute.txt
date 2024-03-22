@@ -1,0 +1,6 @@
+D:\Работа\Portfolio\MyWebApplication\TestProject1\bin\Release\net7.0\CoverletSourceRootsMapping
+D:\Работа\Portfolio\MyWebApplication\TestProject1\obj\Release\net7.0\TestProject1.csproj.AssemblyReference.cache
+D:\Работа\Portfolio\MyWebApplication\TestProject1\obj\Release\net7.0\TestProject1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Работа\Portfolio\MyWebApplication\TestProject1\obj\Release\net7.0\TestProject1.AssemblyInfoInputs.cache
+D:\Работа\Portfolio\MyWebApplication\TestProject1\obj\Release\net7.0\TestProject1.AssemblyInfo.cs
+D:\Работа\Portfolio\MyWebApplication\TestProject1\obj\Release\net7.0\TestProject1.csproj.CoreCompileInputs.cache

@@ -47,14 +47,12 @@ namespace MainMailApiMultiSwagger.Controllers
                 if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 {
                     var token = await response.Content.ReadAsStringAsync();
-
                     //if (token != null)
                     //{
                     HttpContext.Session.SetString("JWToken", token);
-                    //return Ok("Authenticate successful done.");
-                    return Ok(token);
+                    return Ok("Authenticate successful done.");
+                    //return Ok(token);
                 }
-
                 return StatusCode(401, "Authenticate NOT done.");
             }
             catch (Exception e)
@@ -62,6 +60,7 @@ namespace MainMailApiMultiSwagger.Controllers
                 return StatusCode(500, e.Message);
             }
         }
+
         [HttpGet]
         [Route("ShowActiveUser")]
         [AllowAnonymous]

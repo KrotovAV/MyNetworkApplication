@@ -25,10 +25,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="rsa\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\DataBaseUsers\DataBaseUsers.csproj" />
   </ItemGroup>
 
