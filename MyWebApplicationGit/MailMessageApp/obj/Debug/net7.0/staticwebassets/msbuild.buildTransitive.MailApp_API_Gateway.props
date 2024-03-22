@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\MailApp_API_Gateway.props" />
-</Project>
