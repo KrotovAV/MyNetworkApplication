@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "//4phq9MwibxjrM/JNaT8JO/W/CBC7E3621cykITuh3YCloPfI+g6Abje0EoCsVY+F/NtNNKsCZ7DDJGeGI1gQ==",
+  "dgSpecHash": "bbrV1WooZXL+6xIN6tLDDYVHnbDEUve1mIEHHXQR3idy5pXna0wTe37c4xsasdQq55qhLblzC9UASK17sgZ69Q==",
   "success": true,
-  "projectFilePath": "D:\\Работа\\Portfolio\\MyWebApplication\\UserService\\UserService.csproj",
+  "projectFilePath": "D:\\Работа\\GitProject\\Portfolio\\MyWebApplication\\UserService\\UserService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\10\\.nuget\\packages\\autofac\\8.0.0\\autofac.8.0.0.nupkg.sha512",
     "C:\\Users\\10\\.nuget\\packages\\autofac.extensions.dependencyinjection\\9.0.0\\autofac.extensions.dependencyinjection.9.0.0.nupkg.sha512",

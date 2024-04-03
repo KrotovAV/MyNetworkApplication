@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Работа\\Portfolio\\MyWebApplication\\UserService\\UserService.csproj": {}
+    "D:\\Работа\\GitProject\\Portfolio\\MyWebApplication\\UserService\\UserService.csproj": {}
   },
   "projects": {
-    "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseUsers\\DataBaseUsers.csproj": {
+    "D:\\Работа\\GitProject\\Portfolio\\MyWebApplication\\DataBaseUsers\\DataBaseUsers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseUsers\\DataBaseUsers.csproj",
+        "projectUniqueName": "D:\\Работа\\GitProject\\Portfolio\\MyWebApplication\\DataBaseUsers\\DataBaseUsers.csproj",
         "projectName": "DataBaseUsers",
-        "projectPath": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseUsers\\DataBaseUsers.csproj",
+        "projectPath": "D:\\Работа\\GitProject\\Portfolio\\MyWebApplication\\DataBaseUsers\\DataBaseUsers.csproj",
         "packagesPath": "C:\\Users\\10\\.nuget\\packages\\",
-        "outputPath": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseUsers\\obj\\",
+        "outputPath": "D:\\Работа\\GitProject\\Portfolio\\MyWebApplication\\DataBaseUsers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -132,14 +132,14 @@
         }
       }
     },
-    "D:\\Работа\\Portfolio\\MyWebApplication\\UserService\\UserService.csproj": {
+    "D:\\Работа\\GitProject\\Portfolio\\MyWebApplication\\UserService\\UserService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Работа\\Portfolio\\MyWebApplication\\UserService\\UserService.csproj",
+        "projectUniqueName": "D:\\Работа\\GitProject\\Portfolio\\MyWebApplication\\UserService\\UserService.csproj",
         "projectName": "UserService",
-        "projectPath": "D:\\Работа\\Portfolio\\MyWebApplication\\UserService\\UserService.csproj",
+        "projectPath": "D:\\Работа\\GitProject\\Portfolio\\MyWebApplication\\UserService\\UserService.csproj",
         "packagesPath": "C:\\Users\\10\\.nuget\\packages\\",
-        "outputPath": "D:\\Работа\\Portfolio\\MyWebApplication\\UserService\\obj\\",
+        "outputPath": "D:\\Работа\\GitProject\\Portfolio\\MyWebApplication\\UserService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -156,8 +156,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseUsers\\DataBaseUsers.csproj": {
-                "projectPath": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseUsers\\DataBaseUsers.csproj"
+              "D:\\Работа\\GitProject\\Portfolio\\MyWebApplication\\DataBaseUsers\\DataBaseUsers.csproj": {
+                "projectPath": "D:\\Работа\\GitProject\\Portfolio\\MyWebApplication\\DataBaseUsers\\DataBaseUsers.csproj"
               }
             }
           }

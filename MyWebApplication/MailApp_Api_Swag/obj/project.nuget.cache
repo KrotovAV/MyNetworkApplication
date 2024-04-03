@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X8XVWHh8QOxEItWSaGKI2OG7s5ieKx0wpi1Kvh/AgGoBUOW2XWBbgfV3ltqh5j2W2v4rRYEaKPAfPCz6jRs3kg==",
+  "dgSpecHash": "mr2uQOfredbAHnZ1FXMrtvIpqRPbv0AE0WujYdcOxK9sxz7nYW7+V3ULgfnm1/S/CqbLSt0CRW0jWb3NV5WaaA==",
   "success": true,
-  "projectFilePath": "D:\\Работа\\Portfolio\\MyWebApplication\\MailApp_Api_Swag\\MainMailApiMultiSwagger.csproj",
+  "projectFilePath": "D:\\Работа\\GitProject\\Portfolio\\MyWebApplication\\MailApp_Api_Swag\\MainMailApiMultiSwagger.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\10\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.1\\microsoft.aspnetcore.authentication.jwtbearer.7.0.1.nupkg.sha512",
     "C:\\Users\\10\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.11\\microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7JwOcKpJzFdm+9+C931szYHc/VpXfJaG2ZMv9fndYn2OomP5P2cjHCd1B1rURtwbcCjMPJ2ufP04sjMuKZtB5g==",
+  "dgSpecHash": "2m990HW6a9kxEgrxfGnbhVGk4jZAEVkZ0QZcFTCrY6wai9or3aOy90ZpqADAwReM+w8a/sTS9uhAnkiMorcejA==",
   "success": true,
-  "projectFilePath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\UDPClient\\UDPClient.csproj",
+  "projectFilePath": "D:\\Работа\\GitProject\\Portfolio\\MyNetworkApplication\\UDPClient\\UDPClient.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

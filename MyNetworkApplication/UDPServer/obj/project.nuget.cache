@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V047mTnR26xx8k+OsB/GXSD4/7u/jSNRl+i25+fojQM7Ku0ebJL/FC7WTVbI7PZDMbWbKXBCFQ45nmfWcPe+xw==",
+  "dgSpecHash": "Gho8EYlOHNY7SE7mmQpQthNNwMb1JX05qWMKVHi5yiqBYQGBVCjx8l9+Z4m5so76tGjHUGoLlx82y+EEhu48mw==",
   "success": true,
-  "projectFilePath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\UDPServer\\UDPServer.csproj",
+  "projectFilePath": "D:\\Работа\\GitProject\\Portfolio\\MyNetworkApplication\\UDPServer\\UDPServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\10\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\10\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.2\\microsoft.entityframeworkcore.7.0.2.nupkg.sha512",

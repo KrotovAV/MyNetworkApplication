@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "VQYmw4YQF18k26KW490msTbTua2NXwG29B/Fg2whgT8=",
+  "Hash": "kJgmjDka4hNluIey1G8+AIxbCIHTS3sLCmqJyLDgFlo=",
   "Source": "MessageService",
   "BasePath": "_content/MessageService",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseMessage\\DataBaseMessage.csproj",
+      "Identity": "D:\\Работа\\GitProject\\Portfolio\\MyWebApplication\\DataBaseMessage\\DataBaseMessage.csproj",
       "Version": 2,
       "Source": "DataBaseMessage",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

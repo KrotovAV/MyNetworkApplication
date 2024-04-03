@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "UDPServer/1.0.0": {
         "dependencies": {
-          "ConsoleApp06S": "1.0.0"
+          "ConsoleAppServer": "1.0.0"
         },
         "runtime": {
           "UDPServer.dll": {}
@@ -963,14 +963,14 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
-      "ConsoleApp06S/1.0.0": {
+      "ConsoleAppServer/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.2",
           "Microsoft.EntityFrameworkCore.Proxies": "6.0.25",
           "Pomelo.EntityFrameworkCore.MySql": "7.0.0"
         },
         "runtime": {
-          "ConsoleApp06S.dll": {}
+          "ConsoleAppServer.dll": {}
         }
       }
     }
@@ -1667,7 +1667,7 @@
       "path": "system.xml.xmldocument/4.3.0",
       "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
     },
-    "ConsoleApp06S/1.0.0": {
+    "ConsoleAppServer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -6219,11 +6219,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp06S\\ConsoleApp06S.csproj",
-      "projectName": "ConsoleApp06S",
-      "projectPath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp06S\\ConsoleApp06S.csproj",
+      "projectUniqueName": "D:\\Работа\\GitProject\\Portfolio\\MyNetworkApplication\\ConsoleApp06S\\ConsoleAppServer.csproj",
+      "projectName": "ConsoleAppServer",
+      "projectPath": "D:\\Работа\\GitProject\\Portfolio\\MyNetworkApplication\\ConsoleApp06S\\ConsoleAppServer.csproj",
       "packagesPath": "C:\\Users\\10\\.nuget\\packages\\",
-      "outputPath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp06S\\obj\\",
+      "outputPath": "D:\\Работа\\GitProject\\Portfolio\\MyNetworkApplication\\ConsoleApp06S\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\10\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ConsoleApp06S\ConsoleApp06S.csproj" />
+    <ProjectReference Include="..\ConsoleApp06S\ConsoleAppServer.csproj" />
   </ItemGroup>
 
 </Project>

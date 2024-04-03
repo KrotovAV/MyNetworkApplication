@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ekCHHrgbhNFgo9qt7M3JXQneHqjPIt/r0X71q1i9NqkeTR5Sveu23Tg7wAKQZPBm2nJsAnfkOmrETa8fff45xg==",
+  "dgSpecHash": "easMlCx03STxrjp1MZWlXI7YwyBWvjmNpLQtnYP+Wc8lhyGuJuDR4/pcu5iFrwjAMVOxy/5jSJ+PSZMEVV9zFw==",
   "success": true,
-  "projectFilePath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp06C\\ConsoleApp06C.csproj",
+  "projectFilePath": "D:\\Работа\\GitProject\\Portfolio\\MyNetworkApplication\\ConsoleApp06C\\ConsoleAppClient.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

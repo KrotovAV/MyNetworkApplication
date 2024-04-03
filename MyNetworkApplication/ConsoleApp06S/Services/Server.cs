@@ -45,8 +45,14 @@ namespace ConsoleApp06S.Services
                         ctx.Add(new User {FullName = message.NickNameFrom});
                         await ctx.SaveChangesAsync();
                     }
-                    Console.WriteLine($"Пользователь {user.Id} зарегистрирован");
-                    Console.WriteLine("----------------");
+                    User? u = ctx.Users.FirstOrDefault(x => x.FullName == message.NickNameFrom);
+                    if (u != null)
+                    {
+                        Console.WriteLine($"Пользователь {u.Id} зарегистрирован");
+                        Console.WriteLine("----------------");
+                    }
+                    
+                    
                 }
                 
                 var messageRegConfirm = new NetMessage()
@@ -160,9 +166,10 @@ namespace ConsoleApp06S.Services
                 {
                     msg.IsSent = true;
                     await ctx.SaveChangesAsync();
-                }
+                //}
                 Console.WriteLine($"Сообщение id:{msg.MessageId} доставлено получателю {msg.UserToId}.");
                 Console.WriteLine("----------------");
+                }
             }
         }
         public async Task ProcessMessage(NetMessage message)

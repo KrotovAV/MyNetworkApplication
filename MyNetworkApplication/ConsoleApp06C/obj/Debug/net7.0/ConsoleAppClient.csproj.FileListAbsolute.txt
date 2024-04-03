@@ -1,0 +1,14 @@
+D:\Работа\GitProject\Portfolio\MyNetworkApplication\ConsoleApp06C\bin\Debug\net7.0\ConsoleAppClient.exe
+D:\Работа\GitProject\Portfolio\MyNetworkApplication\ConsoleApp06C\bin\Debug\net7.0\ConsoleAppClient.deps.json
+D:\Работа\GitProject\Portfolio\MyNetworkApplication\ConsoleApp06C\bin\Debug\net7.0\ConsoleAppClient.runtimeconfig.json
+D:\Работа\GitProject\Portfolio\MyNetworkApplication\ConsoleApp06C\bin\Debug\net7.0\ConsoleAppClient.dll
+D:\Работа\GitProject\Portfolio\MyNetworkApplication\ConsoleApp06C\bin\Debug\net7.0\ConsoleAppClient.pdb
+D:\Работа\GitProject\Portfolio\MyNetworkApplication\ConsoleApp06C\obj\Debug\net7.0\ConsoleAppClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\Работа\GitProject\Portfolio\MyNetworkApplication\ConsoleApp06C\obj\Debug\net7.0\ConsoleAppClient.AssemblyInfoInputs.cache
+D:\Работа\GitProject\Portfolio\MyNetworkApplication\ConsoleApp06C\obj\Debug\net7.0\ConsoleAppClient.AssemblyInfo.cs
+D:\Работа\GitProject\Portfolio\MyNetworkApplication\ConsoleApp06C\obj\Debug\net7.0\ConsoleAppClient.csproj.CoreCompileInputs.cache
+D:\Работа\GitProject\Portfolio\MyNetworkApplication\ConsoleApp06C\obj\Debug\net7.0\ConsoleAppClient.dll
+D:\Работа\GitProject\Portfolio\MyNetworkApplication\ConsoleApp06C\obj\Debug\net7.0\refint\ConsoleAppClient.dll
+D:\Работа\GitProject\Portfolio\MyNetworkApplication\ConsoleApp06C\obj\Debug\net7.0\ConsoleAppClient.pdb
+D:\Работа\GitProject\Portfolio\MyNetworkApplication\ConsoleApp06C\obj\Debug\net7.0\ConsoleAppClient.genruntimeconfig.cache
+D:\Работа\GitProject\Portfolio\MyNetworkApplication\ConsoleApp06C\obj\Debug\net7.0\ref\ConsoleAppClient.dll

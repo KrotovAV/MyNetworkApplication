@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "C0WVQQYGWhDWODE5eYfBtl4EvY2Ur3+rzyRL1ksQXAk=",
+  "Hash": "xa31OZPTXfapKUe/lr2a14qkySyrS7hj7mPLHEOFRWA=",
   "Source": "UserService",
   "BasePath": "_content/UserService",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseUsers\\DataBaseUsers.csproj",
+      "Identity": "D:\\Работа\\GitProject\\Portfolio\\MyWebApplication\\DataBaseUsers\\DataBaseUsers.csproj",
       "Version": 2,
       "Source": "DataBaseUsers",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Работа\\Portfolio\\MyNetworkApplication\\UDPServer\\UDPServer.csproj": {}
+    "D:\\Работа\\GitProject\\Portfolio\\MyNetworkApplication\\UDPServer\\UDPServer.csproj": {}
   },
   "projects": {
-    "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp06S\\ConsoleApp06S.csproj": {
+    "D:\\Работа\\GitProject\\Portfolio\\MyNetworkApplication\\ConsoleApp06S\\ConsoleAppServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp06S\\ConsoleApp06S.csproj",
-        "projectName": "ConsoleApp06S",
-        "projectPath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp06S\\ConsoleApp06S.csproj",
+        "projectUniqueName": "D:\\Работа\\GitProject\\Portfolio\\MyNetworkApplication\\ConsoleApp06S\\ConsoleAppServer.csproj",
+        "projectName": "ConsoleAppServer",
+        "projectPath": "D:\\Работа\\GitProject\\Portfolio\\MyNetworkApplication\\ConsoleApp06S\\ConsoleAppServer.csproj",
         "packagesPath": "C:\\Users\\10\\.nuget\\packages\\",
-        "outputPath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp06S\\obj\\",
+        "outputPath": "D:\\Работа\\GitProject\\Portfolio\\MyNetworkApplication\\ConsoleApp06S\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -85,14 +85,14 @@
         }
       }
     },
-    "D:\\Работа\\Portfolio\\MyNetworkApplication\\UDPServer\\UDPServer.csproj": {
+    "D:\\Работа\\GitProject\\Portfolio\\MyNetworkApplication\\UDPServer\\UDPServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Работа\\Portfolio\\MyNetworkApplication\\UDPServer\\UDPServer.csproj",
+        "projectUniqueName": "D:\\Работа\\GitProject\\Portfolio\\MyNetworkApplication\\UDPServer\\UDPServer.csproj",
         "projectName": "UDPServer",
-        "projectPath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\UDPServer\\UDPServer.csproj",
+        "projectPath": "D:\\Работа\\GitProject\\Portfolio\\MyNetworkApplication\\UDPServer\\UDPServer.csproj",
         "packagesPath": "C:\\Users\\10\\.nuget\\packages\\",
-        "outputPath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\UDPServer\\obj\\",
+        "outputPath": "D:\\Работа\\GitProject\\Portfolio\\MyNetworkApplication\\UDPServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -109,8 +109,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp06S\\ConsoleApp06S.csproj": {
-                "projectPath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp06S\\ConsoleApp06S.csproj"
+              "D:\\Работа\\GitProject\\Portfolio\\MyNetworkApplication\\ConsoleApp06S\\ConsoleAppServer.csproj": {
+                "projectPath": "D:\\Работа\\GitProject\\Portfolio\\MyNetworkApplication\\ConsoleApp06S\\ConsoleAppServer.csproj"
               }
             }
           }

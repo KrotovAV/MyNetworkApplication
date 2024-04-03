@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fm/NRMw7F/6pWWy0RdhNqow7o73MnFMHA4BU1DcDXpVomMfHKYGgXhk22AZzlSrUs25Zwrzsg6vTraAuvqn6NA==",
+  "dgSpecHash": "RAConcOHKZ2eEwUq/uwmLtdh3K6SmxMP2hyqVQR+1s4uDhO2nnIN3DUAmIw0M8oTofttAr3vbMltYN4wbXIOeQ==",
   "success": true,
-  "projectFilePath": "D:\\Работа\\Portfolio\\MyWebApplication\\MessageService\\MessageService.csproj",
+  "projectFilePath": "D:\\Работа\\GitProject\\Portfolio\\MyWebApplication\\MessageService\\MessageService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\10\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\10\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

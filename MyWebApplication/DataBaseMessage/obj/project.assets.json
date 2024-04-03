@@ -7097,11 +7097,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseMessage\\DataBaseMessage.csproj",
+      "projectUniqueName": "D:\\Работа\\GitProject\\Portfolio\\MyWebApplication\\DataBaseMessage\\DataBaseMessage.csproj",
       "projectName": "DataBaseMessage",
-      "projectPath": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseMessage\\DataBaseMessage.csproj",
+      "projectPath": "D:\\Работа\\GitProject\\Portfolio\\MyWebApplication\\DataBaseMessage\\DataBaseMessage.csproj",
       "packagesPath": "C:\\Users\\10\\.nuget\\packages\\",
-      "outputPath": "D:\\Работа\\Portfolio\\MyWebApplication\\DataBaseMessage\\obj\\",
+      "outputPath": "D:\\Работа\\GitProject\\Portfolio\\MyWebApplication\\DataBaseMessage\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\10\\AppData\\Roaming\\NuGet\\NuGet.Config",

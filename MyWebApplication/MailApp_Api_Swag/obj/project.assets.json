@@ -1429,11 +1429,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Работа\\Portfolio\\MyWebApplication\\MailApp_Api_Swag\\MainMailApiMultiSwagger.csproj",
+      "projectUniqueName": "D:\\Работа\\GitProject\\Portfolio\\MyWebApplication\\MailApp_Api_Swag\\MainMailApiMultiSwagger.csproj",
       "projectName": "MainMailApiMultiSwagger",
-      "projectPath": "D:\\Работа\\Portfolio\\MyWebApplication\\MailApp_Api_Swag\\MainMailApiMultiSwagger.csproj",
+      "projectPath": "D:\\Работа\\GitProject\\Portfolio\\MyWebApplication\\MailApp_Api_Swag\\MainMailApiMultiSwagger.csproj",
       "packagesPath": "C:\\Users\\10\\.nuget\\packages\\",
-      "outputPath": "D:\\Работа\\Portfolio\\MyWebApplication\\MailApp_Api_Swag\\obj\\",
+      "outputPath": "D:\\Работа\\GitProject\\Portfolio\\MyWebApplication\\MailApp_Api_Swag\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\10\\AppData\\Roaming\\NuGet\\NuGet.Config",

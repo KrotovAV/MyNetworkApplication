@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "ConsoleApp06C/1.0.0": {
+      "ConsoleAppClient/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
-          "bin/placeholder/ConsoleApp06C.dll": {}
+          "bin/placeholder/ConsoleAppClient.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ConsoleApp06C.dll": {}
+          "bin/placeholder/ConsoleAppClient.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "ConsoleApp06C/1.0.0": {
+    "ConsoleAppClient/1.0.0": {
       "type": "project",
-      "path": "../ConsoleApp06C/ConsoleApp06C.csproj",
-      "msbuildProject": "../ConsoleApp06C/ConsoleApp06C.csproj"
+      "path": "../ConsoleApp06C/ConsoleAppClient.csproj",
+      "msbuildProject": "../ConsoleApp06C/ConsoleAppClient.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "ConsoleApp06C >= 1.0.0"
+      "ConsoleAppClient >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Работа\\Portfolio\\MyNetworkApplication\\UDPClient\\UDPClient.csproj",
+      "projectUniqueName": "D:\\Работа\\GitProject\\Portfolio\\MyNetworkApplication\\UDPClient\\UDPClient.csproj",
       "projectName": "UDPClient",
-      "projectPath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\UDPClient\\UDPClient.csproj",
+      "projectPath": "D:\\Работа\\GitProject\\Portfolio\\MyNetworkApplication\\UDPClient\\UDPClient.csproj",
       "packagesPath": "C:\\Users\\10\\.nuget\\packages\\",
-      "outputPath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\UDPClient\\obj\\",
+      "outputPath": "D:\\Работа\\GitProject\\Portfolio\\MyNetworkApplication\\UDPClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp06C\\ConsoleApp06C.csproj": {
-              "projectPath": "D:\\Работа\\Portfolio\\MyNetworkApplication\\ConsoleApp06C\\ConsoleApp06C.csproj"
+            "D:\\Работа\\GitProject\\Portfolio\\MyNetworkApplication\\ConsoleApp06C\\ConsoleAppClient.csproj": {
+              "projectPath": "D:\\Работа\\GitProject\\Portfolio\\MyNetworkApplication\\ConsoleApp06C\\ConsoleAppClient.csproj"
             }
           }
         }
