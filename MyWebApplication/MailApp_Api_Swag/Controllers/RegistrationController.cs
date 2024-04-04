@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 
@@ -117,21 +118,22 @@ namespace MainMailApiMultiSwagger.Controllers
         }
 
         [HttpPost]
-        [Route("CheckUsersRole")]
+        [Route("CheckUserRole")]
         [Authorize(Roles = "Adminstrator, Adminhelper")]
         public async Task<IActionResult> CheckUser(string name)
         {
             var token = HttpContext.Session.GetString("JWToken");
             try
-            {
+            {            
                 using var httpClient = new HttpClient();
-                using var request = new HttpRequestMessage(new HttpMethod("POST"), $"https://localhost:7175/Restricted/GetkUserRole?name={name}");
+                using var request = new HttpRequestMessage(new HttpMethod("POST"), $"https://localhost:7175/Restricted/GetUserRole?name={name}");
 
                 request.Headers.TryAddWithoutValidation("accept", "*/*");
                 request.Headers.TryAddWithoutValidation("Authorization", $"Bearer {token}");
+                request.Content = new StringContent("");
+                request.Content.Headers.ContentType = MediaTypeHeaderValue.Parse("application/x-www-form-urlencoded");
 
                 var response = await httpClient.SendAsync(request);
-
                 if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 {
                     string apiResponse = await response.Content.ReadAsStringAsync();
